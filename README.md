@@ -2,9 +2,11 @@
 
 # Toddzilla Ghost Theme
 
-Ghost blog running at https://toddbirchard.com
+Theme previewed live here: https://toddbirchard.com
 
-This repository contains the entire blog instance, including the custom theme. 
+## Known Issues
+- SASS refactor
+- Static content refresh
 
 ## Features
 - Multiple post types
@@ -14,10 +16,9 @@ This repository contains the entire blog instance, including the custom theme.
 - Gitub Widget
 
 ## Stack
-- NodeJS
 - Ghost
 - Express
-- Handblebars
+- Handlebars
 - Sass
 - Gulp
 - Grunt (for Ghost)
