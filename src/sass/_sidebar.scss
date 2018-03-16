@@ -25,9 +25,8 @@
   a.logo {
     display: block;
     margin: 0 auto 10px;
-
     @media(max-width: 1040px) {
-      margin: 0 auto 0!important;
+      margin: 0 auto 0!important !important;
       float: none;
       background: rgba(255, 255, 255, 0.6);
     }
@@ -43,7 +42,6 @@
     }
     @media (max-width:600px) {
       margin: 0 auto 11px;
-      /*min-width: 300px;*/
     }
   }
 
@@ -70,10 +68,6 @@
       margin: 0;
       padding: 0;
     }
-
-
-
-
     @media (max-width:600px) {
       display: block !important;
     }
@@ -91,7 +85,7 @@
 .content .info_widget {
   display: none;
   margin-bottom: 20px;
-/*
+  /*
   .logo {
     float: left;
     width: 57%;
@@ -102,7 +96,7 @@
     padding: 0;
     border: 0;
     margin-top: 10px;
-        margin-bottom: 0;
+    margin-bottom: 0;
 
     p {
       font: 400 19px 'Catamaran',Arial,Sans-Serif;
@@ -111,7 +105,7 @@
       width: 41%;
       float: right;
       padding: 5px 0 0;
-      display:none;
+      display: none;
     }
   }
   @media (max-width:800px) {
@@ -466,11 +460,11 @@ aside .widget:last-child {
 
 .related-post {
   display: inline-block;
-    overflow: visible;
-    margin-bottom: 15px;
-    /* background: #f1f1f1; */
-    padding: 0 0 15px 6px;
-    border-radius: 6px;
+  overflow: visible;
+  margin-bottom: 15px;
+  /* background: #f1f1f1; */
+  padding: 0 0 15px 6px;
+  border-radius: 6px;
 
   .svg-inline--fa {
     font-size: 14px;
@@ -539,20 +533,20 @@ aside .widget:last-child {
 }
 
 .SandboxRoot.var-chromeless .timeline-Widget {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #twitter-widget-0 {
-    background: none;
+  background: none;
 }
 
+.SandboxRoot.env-bp-min .TweetAuthor-screenName,
 .TweetAuthor-Name,
-.TweetAuthor-decoratedName,
-.SandboxRoot.env-bp-min .TweetAuthor-screenName {
-    opacity: 0 !important;
+.TweetAuthor-decoratedName {
+  opacity: 0 !important;
 }
 
-.timeline-Body,
-.SandboxRoot {
+.SandboxRoot,
+.timeline-Body {
   border-top: 0;
 }

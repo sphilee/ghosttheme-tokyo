@@ -18,9 +18,9 @@
     border-bottom: 1px solid #e2e2e2;
     margin-bottom: 15px;
 
-    .svg-inline--fa,
     .left a,
-    .right a {
+    .right a,
+    .svg-inline--fa {
       color: #797979 !important;
       font-weight: 500;
       font: 400 16px 'Catamaran',Arial,Sans-Serif;
@@ -70,16 +70,14 @@
     display: block;
     border: 1px solid #b15d5d;
     color: #b15d5d;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
     padding: 15px 50px;
-
     @media (max-width:600px) {
       font-size: 16px;
       padding: 12px 23px;
       border-radius: 6px;
       font-weight: 400;
     }
-
 
     &:hover {
       background-color: #b15d5d;
@@ -259,15 +257,11 @@
     background-position: center;
     background-size: cover;
     width: auto;
-
-    @media (max-width: 1040px) {
-
-    }
-
+    @media (max-width: 1040px) {}
     @media (max-width: 800px) {
       margin: 0 !important;
       border: 0 !important;
-      height:250px;
+      height: 250px;
     }
 
     .shadow {
@@ -529,13 +523,11 @@
       width: auto;
       color: #bebebe;
     }
-
     @media(max-width: 800px) {
       .left a {
-        display:none;
+        display: none;
       }
     }
-
   }
 
   .author {
@@ -548,12 +540,11 @@
 }
 
 .postcontents {
-
-    a {
-      font: 100 19px 'Catamaran',Arial,Sans-Serif;
-      color: #b15d5d;
-    }
+  a {
+    font: 100 19px 'Catamaran',Arial,Sans-Serif;
+    color: #b15d5d;
   }
+}
 /* see above */
 /* HOMEPAGE (AND ASSOCIATED) ONLY: Link Color under post */
 .postlist article .info .fa-eye {
@@ -563,7 +554,7 @@
 .postlist article .footer .left a,
 .postlist article .info a {
   color: #888888;
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .postlist article .info a:hover {

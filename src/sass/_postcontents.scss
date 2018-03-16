@@ -55,7 +55,7 @@
   }
 
   blockquote {
-    margin: 30px auto 30px auto;
+    margin: 30px auto;
     display: block;
     width: 90%;
     padding-left: 5%;
@@ -66,7 +66,6 @@
       margin-bottom: 0;
       line-height: 1.3;
       color: #aa7979;
-
       @media(max-width: 800px) {
         font: 100 22px 'sanchez',Arial,Sans-Serif;
       }

@@ -1,478 +1,464 @@
 /*
     SOCIAL BUTTONS
 */
-
 .social_outline {
-    position: relative;
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    transition: border-color 0.2s ease-in, color 0.1s ease-in, background 0.2s ease-in;
-    text-align: center;
-    border: 1px solid #000;
-    border-radius: 60px;
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  transition: border-color 0.2s ease-in, color 0.1s ease-in, background 0.2s ease-in;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 60px;
+
+  .svg-inline--fa {
+    vertical-align: -8px !important;
+  }
+
+  &.twitter {
+    border-color: $twitter_color;
 
     .svg-inline--fa {
-        vertical-align: -8px !important;
-    }
-
-    &.twitter {
-        border-color: $twitter_color;
-
-        .svg-inline--fa {
-            color: $twitter_color;
-        }
-
-        &:hover {
-            background: $twitter_color;
-        }
-    }
-
-    &.facebook {
-        border-color: $facebook_color;
-
-        .svg-inline--fa {
-            color: $facebook_color;
-        }
-
-        &:hover {
-            background: $facebook_color;
-        }
-    }
-
-    &.google {
-        border-color: $google_color;
-
-        .svg-inline--fa {
-            color: $google_color;
-        }
-
-        &:hover {
-            background: $google_color;
-        }
-    }
-
-    &.dribbble {
-        border-color: $dribbble_color;
-
-        .svg-inline--fa {
-            color: $dribbble_color;
-        }
-
-        &:hover {
-            background: $dribbble_color;
-        }
-    }
-
-    &.instagram {
-        border-color: $instagram_color;
-
-        .svg-inline--fa {
-            color: $instagram_color;
-        }
-
-        &:hover {
-            background: $instagram_color;
-        }
-    }
-
-    &.github {
-        border-color: $github_color;
-
-        .svg-inline--fa {
-            color: $github_color;
-        }
-
-        &:hover {
-            background: $github_color;
-        }
-    }
-
-    &.angellist {
-        border-color: $github_color;
-
-        .svg-inline--fa {
-            color: $github_color;
-        }
-
-        &:hover {
-            background: $github_color;
-        }
-    }
-
-    &.rss {
-        border-color: $rss_color;
-
-        .svg-inline--fa {
-            color: $rss_color;
-        }
-
-        &:hover {
-            background: $rss_color;
-        }
-    }
-
-    &.youtube {
-        border-color: $youtube_color;
-
-        .svg-inline--fa {
-            color: $youtube_color;
-        }
-
-        &:hover {
-            background: $youtube_color;
-        }
-    }
-
-    &.pinterest {
-        border-color: $pinterest_color;
-
-        .svg-inline--fa {
-            color: $pinterest_color;
-        }
-
-        &:hover {
-            background: $pinterest_color;
-        }
-    }
-
-    &.linkedin {
-        border-color: $linkedin_color;
-
-        .svg-inline--fa {
-            color: $linkedin_color;
-        }
-
-        &:hover {
-            background: $linkedin_color;
-        }
-    }
-
-    &.skype {
-        border-color: $skype_color;
-
-        .svg-inline--fa {
-            color: $skype_color;
-        }
-
-        &:hover {
-            background: $skype_color;
-        }
-    }
-
-    &.quora {
-        border-color: $quora_color;
-
-        .svg-inline--fa {
-            color: $quora_color;
-        }
-
-        &:hover {
-            background: $quora_color;
-        }
-    }
-
-    &.tumblr {
-        border-color: $tumblr_color;
-
-        .svg-inline--fa {
-            color: $tumblr_color;
-        }
-
-        &:hover {
-            background: $tumblr_color;
-        }
-    }
-
-    &.meetup {
-        border-color: $meetup_color;
-
-        .svg-inline--fa {
-            color: $meetup_color;
-        }
-
-        &:hover {
-            background: $meetup_color;
-        }
-    }
-
-
-    &.medium {
-        border-color: $medium_color;
-
-        .svg-inline--fa {
-            color: $medium_color;
-        }
-
-        &:hover {
-            background: $medium_color;
-        }
-    }
-
-
-    &.pocket {
-        border-color: $pocket_color;
-
-        .svg-inline--fa {
-            color: $pocket_color;
-        }
-
-        &:hover {
-            background: $pocket_color;
-        }
-    }
-
-
-
-    &.codecademy {
-        border-color: $codecademy_color;
-
-        .svg-inline--fa {
-            color: $codecademy_color;
-        }
-
-        &:hover {
-            background: $codecademy_color;
-        }
-    }
-
-
-
-
-
-    &:hover .svg-inline--fa {
-        color: #fff;
-    }
-}
-
-.social_solid {
-    position: relative;
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    transition: border-color 0.2s ease-in, color 0.1s ease-in, background 0.2s ease-in;
-    text-align: center;
-    border-radius: 60px;
-
-    .svg-inline--fa {
-        vertical-align: -10px !important;
-    }
-
-    &.twitter {
-        background: $twitter_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $twitter_color;
-        }
-    }
-
-    &.facebook {
-        background: $facebook_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $facebook_color;
-        }
-    }
-
-    &.google {
-        background: $google_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $google_color;
-        }
-    }
-
-    &.dribbble {
-        background: $dribbble_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $dribbble_color;
-        }
-    }
-
-    &.instagram {
-        background: $instagram_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $instagram_color;
-        }
-    }
-
-    &.github,
-    &.angellist {
-        background: $github_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $github_color;
-        }
-    }
-
-    &.rss {
-        background: $rss_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $rss_color;
-        }
-    }
-
-    &.youtube {
-        background: $youtube_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $youtube_color;
-        }
-    }
-
-    &.pinterest {
-        background: $pinterest_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $pinterest_color;
-        }
-    }
-
-    &.linkedin {
-        background: $linkedin_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $linkedin_color;
-        }
-    }
-
-    &.skype {
-        background: $skype_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $skype_color;
-        }
-    }
-
-    &.tumblr {
-        background: $tumblr_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $tumblr_color;
-        }
-    }
-
-    &.quora {
-        background: $quora_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-          &:hover .svg-inline--fa {
-            color: $quora_color;
-        }
-    }
-
-
-    &.meetup {
-        background: $meetup_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-          &:hover .svg-inline--fa {
-            color: $meetup_color;
-        }
-    }
-
-
-    &.medium {
-        background: $medium_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $medium_color;
-        }
-    }
-
-
-    &.pocket {
-        background: $pocket_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $pocket_color;
-        }
-    }
-
-
-
-    &.codecademy {
-        background: $codecademy_color;
-
-        .svg-inline--fa {
-            color: #fff;
-        }
-
-        &:hover .svg-inline--fa {
-            color: $codecademy_color;
-        }
-    }
-
-    &:hover .svg-inline--fa {
-        color: #fff;
+      color: $twitter_color;
     }
 
     &:hover {
-        background: #fff;
+      background: $twitter_color;
     }
+  }
+
+  &.facebook {
+    border-color: $facebook_color;
+
+    .svg-inline--fa {
+      color: $facebook_color;
+    }
+
+    &:hover {
+      background: $facebook_color;
+    }
+  }
+
+  &.google {
+    border-color: $google_color;
+
+    .svg-inline--fa {
+      color: $google_color;
+    }
+
+    &:hover {
+      background: $google_color;
+    }
+  }
+
+  &.dribbble {
+    border-color: $dribbble_color;
+
+    .svg-inline--fa {
+      color: $dribbble_color;
+    }
+
+    &:hover {
+      background: $dribbble_color;
+    }
+  }
+
+  &.instagram {
+    border-color: $instagram_color;
+
+    .svg-inline--fa {
+      color: $instagram_color;
+    }
+
+    &:hover {
+      background: $instagram_color;
+    }
+  }
+
+  &.github {
+    border-color: $github_color;
+
+    .svg-inline--fa {
+      color: $github_color;
+    }
+
+    &:hover {
+      background: $github_color;
+    }
+  }
+
+  &.angellist {
+    border-color: $github_color;
+
+    .svg-inline--fa {
+      color: $github_color;
+    }
+
+    &:hover {
+      background: $github_color;
+    }
+  }
+
+  &.rss {
+    border-color: $rss_color;
+
+    .svg-inline--fa {
+      color: $rss_color;
+    }
+
+    &:hover {
+      background: $rss_color;
+    }
+  }
+
+  &.youtube {
+    border-color: $youtube_color;
+
+    .svg-inline--fa {
+      color: $youtube_color;
+    }
+
+    &:hover {
+      background: $youtube_color;
+    }
+  }
+
+  &.pinterest {
+    border-color: $pinterest_color;
+
+    .svg-inline--fa {
+      color: $pinterest_color;
+    }
+
+    &:hover {
+      background: $pinterest_color;
+    }
+  }
+
+  &.linkedin {
+    border-color: $linkedin_color;
+
+    .svg-inline--fa {
+      color: $linkedin_color;
+    }
+
+    &:hover {
+      background: $linkedin_color;
+    }
+  }
+
+  &.skype {
+    border-color: $skype_color;
+
+    .svg-inline--fa {
+      color: $skype_color;
+    }
+
+    &:hover {
+      background: $skype_color;
+    }
+  }
+
+  &.quora {
+    border-color: $quora_color;
+
+    .svg-inline--fa {
+      color: $quora_color;
+    }
+
+    &:hover {
+      background: $quora_color;
+    }
+  }
+
+  &.tumblr {
+    border-color: $tumblr_color;
+
+    .svg-inline--fa {
+      color: $tumblr_color;
+    }
+
+    &:hover {
+      background: $tumblr_color;
+    }
+  }
+
+  &.meetup {
+    border-color: $meetup_color;
+
+    .svg-inline--fa {
+      color: $meetup_color;
+    }
+
+    &:hover {
+      background: $meetup_color;
+    }
+  }
+
+  &.medium {
+    border-color: $medium_color;
+
+    .svg-inline--fa {
+      color: $medium_color;
+    }
+
+    &:hover {
+      background: $medium_color;
+    }
+  }
+
+  &.pocket {
+    border-color: $pocket_color;
+
+    .svg-inline--fa {
+      color: $pocket_color;
+    }
+
+    &:hover {
+      background: $pocket_color;
+    }
+  }
+
+  &.codecademy {
+    border-color: $codecademy_color;
+
+    .svg-inline--fa {
+      color: $codecademy_color;
+    }
+
+    &:hover {
+      background: $codecademy_color;
+    }
+  }
+
+  &:hover .svg-inline--fa {
+    color: #fff;
+  }
+}
+
+.social_solid {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  transition: border-color 0.2s ease-in, color 0.1s ease-in, background 0.2s ease-in;
+  text-align: center;
+  border-radius: 60px;
+
+  .svg-inline--fa {
+    vertical-align: -10px !important;
+  }
+
+  &.twitter {
+    background: $twitter_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $twitter_color;
+    }
+  }
+
+  &.facebook {
+    background: $facebook_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $facebook_color;
+    }
+  }
+
+  &.google {
+    background: $google_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $google_color;
+    }
+  }
+
+  &.dribbble {
+    background: $dribbble_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $dribbble_color;
+    }
+  }
+
+  &.instagram {
+    background: $instagram_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $instagram_color;
+    }
+  }
+
+  &.angellist,
+  &.github {
+    background: $github_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $github_color;
+    }
+  }
+
+  &.rss {
+    background: $rss_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $rss_color;
+    }
+  }
+
+  &.youtube {
+    background: $youtube_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $youtube_color;
+    }
+  }
+
+  &.pinterest {
+    background: $pinterest_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $pinterest_color;
+    }
+  }
+
+  &.linkedin {
+    background: $linkedin_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $linkedin_color;
+    }
+  }
+
+  &.skype {
+    background: $skype_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $skype_color;
+    }
+  }
+
+  &.tumblr {
+    background: $tumblr_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $tumblr_color;
+    }
+  }
+
+  &.quora {
+    background: $quora_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $quora_color;
+    }
+  }
+
+  &.meetup {
+    background: $meetup_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $meetup_color;
+    }
+  }
+
+  &.medium {
+    background: $medium_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $medium_color;
+    }
+  }
+
+  &.pocket {
+    background: $pocket_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $pocket_color;
+    }
+  }
+
+  &.codecademy {
+    background: $codecademy_color;
+
+    .svg-inline--fa {
+      color: #fff;
+    }
+
+    &:hover .svg-inline--fa {
+      color: $codecademy_color;
+    }
+  }
+
+  &:hover .svg-inline--fa {
+    color: #fff;
+  }
+
+  &:hover {
+    background: #fff;
+  }
 }

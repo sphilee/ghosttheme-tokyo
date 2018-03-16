@@ -1,118 +1,108 @@
 /*
     LAYOUT
 */
-
 header {
-    background: url(https://s3.us-east-2.amazonaws.com/toddzilla/General/bg2.jpg);
-    background-size: cover;
-    width: 100%;
-    padding: 80px 0;
-    display:none;
-        border-bottom: 1px solid #dedede;
-          margin-bottom: 40px;
+  background: url("https://s3.us-east-2.amazonaws.com/toddzilla/General/bg2.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 80px 0;
+  display: none;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 40px;
+  @media (max-width: 1040px) {
+    display: block;
+  }
+  @media (max-width: 600px) {
+    display: block;
+    margin-bottom: 0;
+  }
 
-    @media (max-width: 1040px) {
-        display: block;
+  P {
+    display: none;
+  }
+
+  .widget {
+    border: 0;
+    padding: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    min-width: 250px;
+
+    img {
+      width: 100%;
+      margin-bottom: -10px;
     }
-
-    @media (max-width: 600px) {
-        display: block;
-        margin-bottom: 0;
-    }
-
-    P {
-      display: none;
-    }
-
-    .widget {
-      border:0;
-      padding:0;
-      width: 50%;
-      margin: auto;
-      text-align: center;
-      min-width: 250px;
-
-      img {
-        width:100%;
-        margin-bottom: -10px;
-      }
-    }
+  }
 }
 
 aside {
-  padding:20px;
+  padding: 20px;
   background: #fdfdfd;
-      border-radius: 6px;
+  border-radius: 6px;
 }
 
 .container {
   width: 84%;
   max-width: 1200px;
   margin: 0 auto 20px;
-  display:block;
+  display: block;
   overflow: visible !important;
 
   &.featured {
-        margin-top: 35px;
+    margin-top: 35px;
   }
 
-    .low {
-        margin-top: 90px;
+  .low {
+    margin-top: 90px;
+  }
+  @media (max-width: 1040px) {
+    max-width: 1000px;
+    width: 90%;
+  }
+  @media (max-width: 600px) {
+    width: 92%;
+  }
+  @media (max-width:860px) {
+    .featured {
+      margin-top: 0;
     }
-
-    @media (max-width: 1040px) {
-        max-width: 1000px;
-        width: 90%;
-    }
-
-    @media (max-width: 600px) {
-        width: 92%;
-    }
-
-    @media (max-width:860px) {
-
-      .featured {
-        margin-top:0px;
-
-      }
-    }
+  }
 }
 
 .customcontainer {
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
 }
 
 .content {
-    margin-left: 3%;
+  margin-left: 3%;
 
-    .leftside {
-        float: left;
-        margin-right: 4.5%;
-        margin-left: 0;
-    }
-
-    @media (max-width: 1040px) {
-        width: 100%;
-        margin: 0;
-        padding-right: 0;
-    }
+  .leftside {
+    float: left;
+    margin-right: 4.5%;
+    margin-left: 0;
+  }
+  @media (max-width: 1040px) {
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+  }
 }
 
 .alternate {
   width: 300px;
-    flex-shrink: 0;
+  flex-shrink: 0;
 
-    .rightside {
-        float: right;
-        margin-right: 0;
-        margin-left: 4.5%;
-    }
-
-    @media (max-width: 1040px) {
-        display: none;
-    }
+  .rightside {
+    float: right;
+    margin-right: 0;
+    margin-left: 4.5%;
+  }
+  @media (max-width: 1040px) {
+    display: none;
+  }
 }
 
 .home-template .alternate {
@@ -125,83 +115,79 @@ aside {
   bottom: 19px;
   display: block;
   padding: 7px 14px;
-  transition: color .2s ease-out,background .2s ease-out;
+  transition: color 0.2s ease-out,background 0.2s ease-out;
   border-radius: 40px;
   background: #dcdcdc;
   /* height: 33px; */
   color: #fff;
 
+  i {
+    color: #f3f2f2;
+    font-size: 14px;
+    padding: 0 2px 1px;
+  }
+
+  &:hover {
+    background: $accent_color;
+
     i {
-      color: #f3f2f2;
-      font-size: 14px;
-      padding: 0 2px 1px;
+      color: #fff;
     }
-
-    &:hover {
-        background: $accent_color;
-
-        i {
-            color: #fff;
-        }
-    }
-
-    @media (max-width: 1400px) {
-        display: none;
-    }
+  }
+  @media (max-width: 1400px) {
+    display: none;
+  }
 }
 
 .postcontents .grid {
-    overflow: hidden;
-    margin: 50px 0;
+  overflow: hidden;
+  margin: 50px 0;
 
-    .half {
-        width: 47.5%;
-    }
+  .half {
+    width: 47.5%;
+  }
 
-    .left {
-        margin: 0;
-        margin-right: 2.5%;
+  .left {
+    margin: 0 2.5% 0 0;
+  }
+
+  .right {
+    margin: 0 0 0 2.5%;
+  }
+
+  p.left,
+  p.right {
+    font-weight: 400;
+  }
+
+  .left *:last-child,
+  .right *:last-child {
+    margin-bottom: 0;
+  }
+
+  .left *:first-child,
+  .right *:first-child {
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 400;
+    clear: none;
+  }
+
+  p:nth-of-type(1) {
+    font-weight: 400;
+  }
+  @media (max-width: 585px) {
+    .left,
+    .right {
+      float: none;
+      width: 100%;
+      margin: 0;
     }
 
     .right {
-        margin: 0;
-        margin-left: 2.5%;
+      margin-top: 50px;
     }
-
-    p.left,
-    p.right {
-        font-weight: 400;
-    }
-
-    .left *:last-child,
-    .right *:last-child {
-        margin-bottom: 0;
-    }
-
-    .left *:first-child,
-    .right *:first-child {
-        margin-top: 0;
-    }
-
-    p {
-        font-weight: 400;
-        clear: none;
-    }
-
-    p:nth-of-type(1) {
-        font-weight: 400;
-    }
-
-    @media (max-width: 585px) {
-        .left,
-        .right {
-            float: none;
-            width: 100%;
-            margin: 0;
-        }
-
-        .right {
-            margin-top: 50px;
-        }
-    }
+  }
 }
