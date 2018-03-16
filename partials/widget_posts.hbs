@@ -1,5 +1,5 @@
 <div class="articles">
-  <h4>Related Posts</h4>
+  <h4><i class="fal fa-file-alt"></i> Related Posts</h4>
     {{#get "posts" limit="2" page="1" include="tags" filter="tags:[{{primary_tag.slug}}]+id:-{{id}}" as |related|}}
       {{#foreach related}}
                             <div class="related-post">

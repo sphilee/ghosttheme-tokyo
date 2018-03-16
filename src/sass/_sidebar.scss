@@ -10,9 +10,14 @@
   }
 
   h4 {
-    font: 500 16px 'Montserrat', Arial, Sans-Serif;
-    margin: 0 0 30px;
-    color: #c6c8c8;
+    font-weight: 300;
+    line-height: 26px;
+    color: #474d52;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+    font: 600 24px 'ovo',Arial,Sans-Serif;
+    text-align: center;
 
     i {
       margin-right: 15px;
@@ -211,15 +216,6 @@
     border-radius: 6px;
   }
 
-  h4 {
-    font-weight: 300;
-    line-height: 26px;
-    color: #292F33;
-    font-family: helvetica;
-    padding-bottom: 10px;
-    margin: 0 0 10px;
-    font: 200 24px ovo,Arial,Sans-Serif;
-  }
 }
 /* WIDGET - TWITTER */
 #twitter-widget-0 {
