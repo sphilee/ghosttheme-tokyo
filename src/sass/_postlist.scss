@@ -19,17 +19,27 @@
     margin-bottom: 15px;
 
     .left a,
-    .right a,
-    .svg-inline--fa {
+    .right a {
       color: #797979 !important;
       font-weight: 500;
-      font: 400 16px 'Catamaran',Arial,Sans-Serif;
+      font: 400 18px 'Catamaran',Arial,Sans-Serif;
+      transition: all .2s  ease-out;
 
-      .date,
-      .tags {
-        margin-right: 30px;
-        font-size: 18px;
+      &:hover {
+        color: #b15d5d !important;
       }
+    }
+
+    .reading-time {
+      color: #797979 !important;
+      font-weight: 500;
+      font: 400 18px 'Catamaran',Arial,Sans-Serif;
+    }
+
+    .date,
+    .tags {
+      margin-right: 25px;
+      font-size: 18px;
     }
   }
 
@@ -169,10 +179,6 @@
 
     .author {
       font-weight: 600;
-    }
-
-    .date {
-      margin-right: 20px;
     }
 
     .tags {
@@ -521,7 +527,7 @@
     .svg-inline--fa {
       font-size: 14px;
       width: auto;
-      color: #bebebe;
+      color: #797979;
     }
     @media(max-width: 800px) {
       .left a {
@@ -534,9 +540,6 @@
     display: none;
   }
 
-  .date {
-    margin-right: 20px;
-  }
 }
 
 .postcontents {
@@ -547,9 +550,6 @@
 }
 /* see above */
 /* HOMEPAGE (AND ASSOCIATED) ONLY: Link Color under post */
-.postlist article .info .fa-eye {
-  color: #fff;
-}
 
 .postlist article .footer .left a,
 .postlist article .info a {
