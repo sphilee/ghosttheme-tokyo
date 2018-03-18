@@ -307,8 +307,12 @@
     color: #b15d5d;
   }
 
-  .svg-inline--fa {
+  .nextbutton .svg-inline--fa {
     margin: 0 0 0 10px;
+  }
+
+  .prevbutton .svg-inline--fa {
+    margin: 0 10px 0 0;
   }
 
   .pages {

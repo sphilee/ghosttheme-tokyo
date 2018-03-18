@@ -10,7 +10,7 @@
 }}
 
 	<div class="widget tag_widget">
-		<h4><i class="fal fa-tags"></i> Tags</h4>
+		{{#is "post"}}<h4><i class="fal fa-tags"></i> Tags</h4>{{/is}}
 		<ul class="tags_list">
 			{{! <li><a href="/tag/taghere">taghere</a></li> }}
 			<li><a href="{{@blog.url}}/tag/product">Product</a></li>

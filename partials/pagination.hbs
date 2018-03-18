@@ -7,12 +7,12 @@
 
     <nav class="pagination">
         {{#if next}}
-            <a href="{{page_url next}}" class="largeoutline dark wide right">
+            <a class="nextbutton" href="{{page_url next}}" class="largeoutline dark wide right">
                 <span class="main">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
             </a>
         {{/if}}
         {{#if prev}}
-            <a href="{{page_url prev}}" class="largeoutline dark wide left">
+            <a class="prevbutton" href="{{page_url prev}}" class="largeoutline dark wide left">
                 <span class="main"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous</span>
             </a>
         {{/if}}
