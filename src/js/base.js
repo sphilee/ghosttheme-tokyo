@@ -62,7 +62,7 @@ jQuery(document).ready(function(){
     // HIDE EMPTY PAGINATION
 
     function configurePagination(){
-        if(jQuery('.pagination .largeoutline').length === 0){
+        if(jQuery('.pagination a').length === 0){
             jQuery('.pagination').hide();
         }
     }

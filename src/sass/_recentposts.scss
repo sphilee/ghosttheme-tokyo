@@ -106,7 +106,7 @@
     a:nth-of-type(1) {
       color: #fff;
       font-weight: 900;
-      font-size: 15px;
+      font-size: 16px;
       bottom: 0;
       display: none;
       float: right;
@@ -162,35 +162,37 @@
     * {
       display: none !important;
     }
+
+    .svg-inline--fa {
+      padding: 0 !important;
+    }
     /* display first tag */
     .svg-inline--fa:nth-of-type(1),
     .svg-inline--fa:nth-of-type(1) path,
     a:nth-of-type(1) {
       display: inline !important;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 400;
       color: #7d7d7d;
       margin-right: 5px;
-      @media (max-width: 1040px) {
-        font-size: 11px;
-      }
-    }
-    @media (max-width: 600px) {
-      display: block;
-      padding: 0 0 15px 20px;
 
-      .svg-inline--fa,
-      a {
-        font-size: 14px !important;
+      @media (max-width: 600px) {
+        display: block;
+        padding: 0;
         color: #777777 !important;
         font-weight: 500 !important;
       }
     }
+
+    @media (max-width: 600px) {
+        margin-bottom: 15px;
+      }
+
   }
 
   .recent-description-title {
     padding: 15px 15px 0;
-    line-height: 1.05;
+    line-height: 1.5;
     margin: 0;
     font-size: 2.6ch;
     @media (max-width: 900px) {
@@ -217,11 +219,12 @@
     float: right;
     margin-right: 20px;
     margin-bottom: 20px;
-    padding: 12px 25px;
+    padding: 12px 14px;
     color: #b15d5d;
     background: white;
     border: 1px solid #b15d5d;
     transition: all 0.2s ease-out;
+    border-radius: 20px;
 
     &:hover {
       color: white;
@@ -232,7 +235,7 @@
       margin-left: 2px;
     }
     @media (max-width:1040px) {
-      padding: 10px 16px;
+      padding: 10px 12px;
       font-size: 11px;
     }
     @media (max-width:600px) {
