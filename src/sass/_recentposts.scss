@@ -1,4 +1,3 @@
-
 /* Recent Post Container */
 .post-template .recent-container {
   display: flex;
@@ -80,6 +79,11 @@
     border-radius: 6px 6px 0 0;
     overflow: hidden;
     transition: opacity 0.3s ease-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
     @media (max-width: 600px) {
       box-shadow: inset -200px -200px 5px rgba(0,0,0,.4);
       border-radius: 4px;
@@ -135,7 +139,7 @@
     line-height: 23px;
     padding: 0 20px;
     overflow: hidden;
-    margin-bottom: 80px;
+    margin-bottom: 69px;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -175,7 +179,6 @@
       font-weight: 400;
       color: #7d7d7d;
       margin-right: 5px;
-
       @media (max-width: 600px) {
         display: block;
         padding: 0;
@@ -183,16 +186,14 @@
         font-weight: 500 !important;
       }
     }
-
     @media (max-width: 600px) {
-        margin-bottom: 15px;
-      }
-
+      margin-bottom: 15px;
+    }
   }
 
   .recent-description-title {
     padding: 15px 15px 0;
-    line-height: 1.5;
+    line-height: 1.15;
     margin: 0;
     font-size: 2.6ch;
     @media (max-width: 900px) {
