@@ -1,16 +1,16 @@
 <div class="articles">
   <h4><i class="fal fa-file-alt"></i> Related Posts</h4>
-    {{#get "posts" limit="2" page="1" include="tags" filter="tags:[{{primary_tag.slug}}]+id:-{{id}}" as |related|}}
-      {{#foreach related}}
-                            <div class="related-post">
-                                <h5 class="related-description-title">{{title}}</h5>
-                                <p class="related-description">{{excerpt}}</p>
-                                <div class="related-posttag">
-                                  <i class="fas fa-tags"></i>
-                                  {{#tags limit="1"}}<a href="{{url}}">{{name}}</a>{{/tags}}
-                                </div>
-                                <a href="{{url}}" class="largesolid orange">Read <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                            </div>
-                        {{/foreach}}
-                {{/get}}
+  {{#get "posts" limit="2" page="1" include="tags" filter="tags:[{{primary_tag.slug}}]+id:-{{id}}" as |related|}}
+    {{#foreach related}}
+      <div class="related-post">
+        <h5 class="related-description-title">{{title}}</h5>
+        <p class="related-description">{{excerpt}}</p>
+        <div class="related-posttag">
+          <i class="fal fa-tags"></i>
+          {{#tags limit="1" }}<a href="{{url}}">{{name}}</a>{{/tags}}
+        </div>
+        <a href="{{url}}">Read <i class="fal fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    {{/foreach}}
+  {{/get}}
 </div>

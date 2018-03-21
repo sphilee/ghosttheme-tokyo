@@ -75,7 +75,7 @@
     font-weight: 400;
     font-size: 18px;
     background: #fff;
-    margin: 0 auto 40px;
+    margin: 0 auto 30px;
     text-align: center;
     display: block;
     border: 1px solid #b15d5d;
@@ -226,7 +226,7 @@
 
     a {
       font: 400 16px 'Catamaran', Arial, Sans-Serif;
-      margin-right: 20px;
+      margin-right: 25px;
     }
 
     .right {
@@ -236,7 +236,7 @@
       padding: 0 25px !important;
       height: 60px;
       margin-bottom: 15px;
-      margin-top: 10px;
+      margin-top: 15px;
     }
   }
 
@@ -502,7 +502,11 @@
     padding: 25px 40px 0 30px;
 
     .left {
-      .svg-inline--fa {
+      & > a .svg-inline--fa {
+        margin-right: 10px;
+      }
+
+      span a .svg-inline--fa {
         margin-right: 5px;
       }
 
@@ -556,6 +560,7 @@
 .postlist article .info a {
   color: #888888;
   font-weight: 200;
+  font-size: 18px;
 }
 
 .postlist article .info a:hover {
@@ -581,8 +586,9 @@
 }
 
 .home-template .postlist article .footer .left,
+.tag-template .postlist article .footer .left,
 .paged .postlist article .footer .left {
-  margin-top: 11px;
+  margin-top: 14px;
   @media (max-width: 1040px) {
     padding: 0;
   }

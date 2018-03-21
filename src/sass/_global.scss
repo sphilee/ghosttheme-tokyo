@@ -291,7 +291,7 @@ html *{
 
 p {
     font: 400 19px 'Catamaran', Arial, Sans-Serif;
-    line-height: 32px;
+    line-height: 1.5;
     color: #353535;
 
     &::selection {
@@ -438,9 +438,6 @@ input:-ms-input-placeholder {
   h5,
   h5 a {
       line-height: 28px
-  }
-  p {
-      line-height: 2;
   }
   h2,
   h2 a {

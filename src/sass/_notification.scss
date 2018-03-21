@@ -2,16 +2,21 @@
     NOTIFICATION
 */
 .notification {
-  font: 500 22px 'Montserrat', Arial, Sans-Serif;
+  font: 500 22px 'Catamarran', Arial, Sans-Serif;
   margin-bottom: 20px;
   color: #353535;
-  border: 1px solid #ececec;
+  /*border: 1px solid #ececec;*/
   background-color: #fff;
-  padding: 30px 30px 5px;
+  padding: 30px 20px 5px;
   border-radius: 8px;
+  box-shadow: -2px 2px 20px rgba(0,0,0,.05);
 
   .left {
     margin-top: 20px;
+
+    .svg-inline--fa {
+      color: #b15d5d;
+    }
   }
 
   .right {
@@ -26,22 +31,18 @@
     color: $accent_color;
   }
 
-  i {
-    margin-right: 20px;
-  }
-
-  a i {
-    margin-right: 0;
-    transition: color 0.2s ease-out;
-    color: #dad9d9;
+  a {
+    color: #9b9b9b;
+    transition: color 0.3s ease-out;
 
     &:hover {
-      color: #858585;
+      color: $accent_color;
     }
   }
+  @media (max-width:1040px) {
+    margin-top: 30px;
+  }
   @media (max-width:600px) {
-    margin-bottom: 0;
-
     .left {
       width: 90%;
     }

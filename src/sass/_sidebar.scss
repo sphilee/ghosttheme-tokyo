@@ -1,7 +1,6 @@
 /*
     SIDEBAR
 */
-
 aside {
   h4 {
     font-weight: 300;
@@ -10,7 +9,7 @@ aside {
     font-family: helvetica;
     padding-bottom: 10px;
     margin: 0 0 10px;
-    font: 600 24px 'ovo',Arial,Sans-Serif;
+    font: 500 26px 'ovo',Arial,Sans-Serif;
     text-align: center;
 
     i {
@@ -18,17 +17,21 @@ aside {
       color: #c6c8c8;
     }
   }
-  }
+}
 
 .widget {
   padding: 30px 0;
   border-bottom: 1px solid #ececec;
 
+  h4 {
+    .svg-inline--fa {
+      font-size: 18px;
+    }
+  }
+
   &:first-child {
     padding-top: 0;
   }
-
-
 }
 /* WIDGET - INFO */
 .info_widget {
@@ -199,15 +202,23 @@ aside {
     content: '';
   }
 }
+/* WIDGET - TWITTER */
+.home-template .twitter_widget,
+.paged .twitter_widget,
+.tag-template .twitter_widget {
+  padding-top: 0;
+}
 /* WIDGET - TAG */
+.home-template .tag_widget,
+.paged .tag_widget,
+.tag-template .tag_widget {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .tag_widget {
-  /*height: 239px;*/
   padding-bottom: 20px;
   padding-top: 20px;
-
-  /*h4 {
-    margin-top: 20px;
-  }*/
 }
 /* WIDGET - RELATED */
 .page-template .related_widget {
@@ -225,7 +236,6 @@ aside {
     font: 200 21px 'ovo',Arial,Sans-Serif;
     border-radius: 6px;
   }
-
 }
 /* WIDGET - TWITTER */
 #twitter-widget-0 {
@@ -258,6 +268,7 @@ aside {
 aside .author_widget {
   display: block !important;
   border-radius: 8px;
+  padding: 10px 10px 20px;
 
   .avatar {
     margin: 0 15px 0 0;
@@ -494,6 +505,11 @@ aside .widget:last-child {
     margin: 10px 0;
   }
 
+  a {
+    float: right;
+    font-size: 16px;
+  }
+
   .largesolid.orange {
     float: left;
     padding: 0;
@@ -512,11 +528,10 @@ aside .widget:last-child {
     }
 
     &:hover {
-      background: #9a9a9a;
-      color: #fff;
+      color: #cc4f4f;
 
       i {
-        color: #fff;
+        color: #cc4f4f;
       }
     }
   }

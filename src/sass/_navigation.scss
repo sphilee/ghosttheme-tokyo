@@ -48,7 +48,7 @@
 
   .toggle {
     display: inline-block;
-    padding: 15px 0 5px 15px;
+    padding: 20px 0 15px 15px;
     transition: opacity 0.1s ease-out;
     opacity: 0.6;
     float: right;
@@ -75,7 +75,7 @@
 
   .menu {
     display: inline-block;
-    margin: 10px 0 0;
+    margin: 16px 0 0;
     padding: 0;
     list-style: none;
     transition: opacity 0.4s ease-out;
@@ -301,6 +301,8 @@
 
   a {
     background: none;
+    color: #a0a0a0;
+    font: 400 22px 'Catamaran',Arial,Sans-Serif;
   }
 
   a:hover {
@@ -466,7 +468,8 @@
 }
 
 .home-template .graybar,
-.page-template .graybar {
+.page-template .graybar,
+.tag-template .graybar {
   border-radius: 8px;
 }
 
@@ -488,7 +491,8 @@
 }
 
 .home-template .inlinemenu,
-.paged .inlinemenu {
+.paged .inlinemenu,
+.tag-template .inlinemenu {
   @media (max-width: 1040px) {
     width: 100%;
     margin: 0 0 40px;
@@ -500,6 +504,17 @@
     display: block;
   }
 }
+
+.tag-template .inlinemenu,
+.tag-template .inlinemenu .graybar {
+  @media (max-width: 1040px) {
+    display: block;
+  }
+}
+
+.tag-template .inlinemenu {
+    margin: 0 0 20px;
+  }
 
 .post-template .inlinemenu {
   @media (max-width: 600px) {
@@ -718,6 +733,10 @@
     right: 0;
     left: 0;
   }
+
+  .tag-template .mainnav {
+    display: none;
+  }
 }
 
 .page-template .mainnav .toggle {
@@ -725,6 +744,7 @@
 }
 
 .home-template,
+.tag-template,
 .paged {
   .mainnav .menu a,
   .toggle a {

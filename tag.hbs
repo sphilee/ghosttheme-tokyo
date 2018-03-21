@@ -6,7 +6,8 @@
 	- Configuration of this file is not required.
 
 }}
-	<div class="container">
+<div class="container">
+	<div class="customcontainer">
 
 		{{> sidebar_default}}
 
@@ -14,27 +15,27 @@
 
 			{{! PAGE NOTIFICATION / TITLE }}
 			<div class="notification">
-				<div class="left"><i class="fa fa-tags"></i>TAG: <span>{{tag.name}}</span></div>
-				<div class="right"><a href="{{@blog.url}}"><i class="fa fa-times"></i></a></div>
-				<div class="notification-description"><p>{{tag.description}}</p></div>
+				<div class="left"><i class="fal fa-tags"></i><span>{{tag.name}}</span></div>
+				<div class="right"><a href="{{@blog.url}}"><i class="fal fa-times"></i></a></div>
+				<div class="notification-description">
+					<p>{{tag.description}}</p>
+				</div>
 			</div>
 
 			{{! WIDGET - BLOG INFO }}
-			{{> widget_bloginfo}}
-
-			{{! RESPONSIVE NAVIGATION }}
-			<div class="inlinemenu">
-				<div class="graybar">
-					<div class="left"><i class="fa fa-bars"></i>Navigation</div>
-					<div class="right"><i class="fa fa-chevron-down"></i></div>
+			{{!{{> RESPONSIVE NAVIGATION }}
+				<div class="inlinemenu">
+					<div class="graybar">
+						<div class="left"><i class="fa fa-bars"></i>Navigation</div>
+						<div class="right"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					{{navigation}}
 				</div>
-				{{navigation}}
-			</div>
 
-			{{! POSTLIST }}
-			<div class="postlist">
-				{{> loop}}
-				{{pagination}}
-			</div>
+				{{! POSTLIST }}
+				<div class="postlist">
+					{{> loop}} {{pagination}}
+				</div>
 		</div>
 	</div>
+</div>
