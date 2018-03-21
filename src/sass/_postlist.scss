@@ -197,9 +197,6 @@
       .feature {
         display: none;
       }
-      @media (max-width: 700px) {
-        display: none;
-      }
     }
 
     .svg-inline--fa {
@@ -220,6 +217,8 @@
     }
   }
 
+
+
   .footer {
     overflow: hidden;
     font-weight: 600;
@@ -233,10 +232,6 @@
         margin-right: 0;
         font-size: 17px;
       }
-    }
-
-    .tags {
-      /*display: none;*/
     }
 
     .left {
@@ -256,6 +251,12 @@
         margin-right: 5px;
       }
 
+      .tags {
+        @media (max-width: 700px) {
+          display: none;
+        }
+      }
+
       .tags * {
         display: none;
 
@@ -263,8 +264,6 @@
           display: inline;
         }
       }
-
-
 
       .banner,
       .feature {
@@ -275,6 +274,7 @@
         color: #888888;
         @media (max-width: 600px) {
           font-size: 17px;
+          margin-right: 0;
         }
       }
       @media (max-width: 1040px) {
@@ -293,6 +293,10 @@
       height: 60px;
       margin-bottom: 15px;
       margin-top: 15px;
+
+      .tags {
+          display: none;
+      }
     }
   }
 
