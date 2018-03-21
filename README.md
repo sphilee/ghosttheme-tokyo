@@ -6,14 +6,19 @@ Theme previewed live here: https://toddbirchard.com
 
 ## Known Issues
 - SASS refactor
-- Static content refresh
+- Ease of configuration
+- Documentation
 
 ## Features
-- Multiple post types
+- Fully responsive
+- Featured posts
 - Related articles widget
+- Recent articles widget
 - Experience widget
 - Twitter widget
-- Gitub Widget
+- Gitub widget
+- Reading time
+
 
 ## Stack
 - Ghost
@@ -21,4 +26,3 @@ Theme previewed live here: https://toddbirchard.com
 - Handlebars
 - Sass
 - Gulp
-- Grunt (for Ghost)
