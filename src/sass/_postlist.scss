@@ -39,18 +39,27 @@
     .date {
       margin-right: 25px;
       font-size: 18px;
+      @media (max-width: 600px) {
+        margin-right: 15px;
+      }
     }
   }
 
   article:last-child {
     margin-bottom: 0 !important;
   }
+
   @media (max-width: 1040px) {
     display: block;
 
-    article {
+  article {
       .largeimage {
         text-align: center;
+
+        .inlinetext p,
+        p:first-child {
+          margin-top: 20px;
+        }
 
         h1 {
           line-height: 50px;
@@ -65,38 +74,6 @@
         }
       }
     }
-  }
-
-  article .footer .largesolid.orange {
-    border-radius: 10px;
-    font-family: 'montserrat';
-    float: right;
-    font-weight: 500;
-    font-size: 18px;
-    background: #fff;
-    margin: 0 auto 30px;
-    text-align: center;
-    display: block;
-    border: 1px solid #b15d5d;
-    color: #b15d5d;
-    transition: all 0.2s ease-out;
-    padding: 15px 35px;
-    @media (max-width:600px) {
-      font-size: 16px;
-      padding: 12px 23px;
-      border-radius: 6px;
-      font-weight: 400;
-    }
-
-    &:hover {
-      background-color: #b15d5d;
-      color: white;
-    }
-  }
-
-  article .inlinetext p,
-  article p:first-child {
-    margin-top: 20px;
   }
 
   article:nth-of-type(5) {
@@ -126,6 +103,26 @@
 }
 
 .postlist article {
+  .info {
+    overflow: hidden;
+    padding: 10px 0;
+
+    .svg-inline--fa {
+      font-size: 14px;
+      width: auto;
+      color: #797979;
+    }
+    @media(max-width: 800px) {
+      .left a {
+        display: none;
+      }
+    }
+  }
+
+  .author {
+    display: none;
+  }
+
   .postfeature {
     display: block;
   }
@@ -181,6 +178,8 @@
     }
 
     .tags {
+      margin-right: 25px;
+
       a {
         display: none;
       }
@@ -217,17 +216,41 @@
     }
   }
 
-
-
   .footer {
     overflow: hidden;
     font-weight: 600;
     padding: 25px 40px 0 30px;
 
+    .largesolid.orange {
+      border-radius: 10px;
+      font-family: 'montserrat';
+      float: right;
+      font-weight: 500;
+      font-size: 18px;
+      background: #fff;
+      margin: 0 auto 30px;
+      text-align: center;
+      display: block;
+      border: 1px solid #b15d5d;
+      color: #b15d5d;
+      transition: all 0.2s ease-out;
+      padding: 15px 35px;
+      @media (max-width:600px) {
+        font-size: 16px;
+        padding: 12px 23px;
+        border-radius: 6px;
+        font-weight: 400;
+      }
+
+      &:hover {
+        background-color: #b15d5d;
+        color: white;
+      }
+    }
+
     a {
       font: 400 18px 'Catamaran', Arial, Sans-Serif;
       color: #888888;
-
       @media (max-width: 600px) {
         margin-right: 0;
         font-size: 17px;
@@ -295,7 +318,7 @@
       margin-top: 15px;
 
       .tags {
-          display: none;
+        display: none;
       }
     }
   }
@@ -411,7 +434,7 @@
     h1 {
       font-size: 35px;
       line-height: 39px;
-      margin: 23px!important !important;
+      margin: 20px !important;
     }
 
     .largeimage {
@@ -436,6 +459,9 @@
 
     &.light {
       font-weight: 400;
+    }
+    @media(max-width: 700px) {
+      padding: 0 20px;
     }
   }
 
@@ -517,7 +543,7 @@
     background-position: center;
     background-size: cover;
   }
-
+  /*
   cite {
     font: 600 22px 'Catamaran', 'Open Sans', Arial, Sans-Serif;
     line-height: 30px;
@@ -527,6 +553,7 @@
     margin: 20px 0 10px;
     color: $accent_color;
   }
+
   @media (max-width: 529px) {
     blockquote p {
       font-size: 24px;
@@ -539,7 +566,7 @@
     .info .tags {
       display: none;
     }
-  }
+  }*/
 }
 /* NEEDS TO BE SORTED */
 /* HOMEPAGE (AND ASSOCIATED) ONLY: Article Details under image */
@@ -549,28 +576,6 @@
 .tag-template .postlist article .info {
   overflow: hidden;
   padding: 15px 30px;
-}
-/* ARTICLE ONLY: Article Details under image */
-.postlist article {
-  .info {
-    overflow: hidden;
-    padding: 10px 0;
-
-    .svg-inline--fa {
-      font-size: 14px;
-      width: auto;
-      color: #797979;
-    }
-    @media(max-width: 800px) {
-      .left a {
-        display: none;
-      }
-    }
-  }
-
-  .author {
-    display: none;
-  }
 }
 
 .postcontents {
@@ -647,5 +652,55 @@
     .right a {
       color: white;
     }
+    @media (max-width: 600px) {
+      .tags {
+        display: none;
+      }
+    }
   }
 }
+/* is this worthless? */
+/*
+.header {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 170px;
+  max-height: 170px;
+  border-radius: 4px;
+  background-color: #141313;
+  background-position: center;
+  background-size: cover;
+  display: none;
+
+  h5 {
+    font: 600 22px 'Montserrat', Arial, Sans-Serif;
+    line-height: 36px;
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    transition: color 0.2s ease-out;
+    color: #fff;
+  }
+
+  .shadow {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transition: box-shadow 0.2s ease-out;
+    box-shadow: inset -10px -120px 61px -27px rgba(0, 0, 0, 0.55);
+  }
+
+  &:hover .shadow {
+    box-shadow: inset -10px -120px 61px -27px rgba(0, 0, 0, 0.7);
+  }
+}
+*/

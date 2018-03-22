@@ -1,9 +1,9 @@
 {
-    "name": "EckoOrcaTheme",
+    "name": "Zilla",
     "version": "2.8.0",
     "private": true,
-    "author": "Ecko <support@ecko.me>",
-    "description": "Orca Theme for Ghost by EckoThemes",
+    "author": "",
+    "description": "Toddzilla Theme",
     "devDependencies": {
         "del": "^2.0.1",
         "gulp": "^3.9.0",

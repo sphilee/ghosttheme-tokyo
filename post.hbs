@@ -1,8 +1,6 @@
 {{!
-
     POST TEMPLATE
     - Configuration of this file is not required.
-
 }}
 {{!< default}}
 
@@ -63,28 +61,8 @@
       </article>
       </div>
       <div style="clear:both"></div>
-      <div class="recentposts">
-        <div class="recent-container">
-          <h4>Recent Posts</h4>
-          {{#get "posts" limit="3" page="1" include="tags" filter="id:-{{id}}" as |recents|}}
-            {{#foreach recents}}
-              <div class="recent-post">
-                <a href="{{url}}" class="recent-image" style="background-image: url({{img_url feature_image}});">
-                </a>
-                <h5 class="recent-description-title">{{title}}</h5>
-                <p class="recentdescription">{{excerpt}}</p>
-                <div class="recentpost-footer">
-                  <div class="recentposttag">
-                    <i class="fal fa-tags"></i>
-                    {{#tags limit="1" }}<a href="{{url}}">{{name}}</a>{{/tags}}
-                  </div>
-                  <a href="{{url}}" class="largesolid orange"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            {{/foreach}}
-          {{/get}}
-        </div>
-      </div>
+      {{! WIDGET - RECENT POSTS }}
+      {{> widget_recentposts}}
       {{! WIDGET - AUTHOR INFO }}
       {{> widget_author}}
         </div>

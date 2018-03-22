@@ -61,6 +61,7 @@
   @media (max-width: 600px) {
     height: 111px;
     border: 1px solid #ececec;
+    margin-bottom: 10px;
   }
 
   .recent-image {
@@ -87,21 +88,21 @@
     @media (max-width: 600px) {
       box-shadow: inset -200px -200px 5px rgba(0,0,0,.4);
       border-radius: 4px;
-      width: 35%;
+      width: 120px;
       float: right;
       border-radius: 0 8px 8px 0;
       height: 100%;
     }
 
     .recenttitle {
-      padding: 0 0 10px 0!important !important;
+      padding: 0 0 10px 0 !important;
       color: #fff;
       float: none;
       font-size: 24px!important;
       line-height: 1.1;
       bottom: 0;
       position: absolute;
-      height: auto !important;
+      height: auto;
       text-shadow: -1px 1px rgba(0, 0, 0, 0.2), 1px -1px rgba(0, 0, 0, 0.2), 1px 1px rgba(0, 0, 0, 0.2), -1px -1px rgba(0, 0, 0, 0.2);
       display: none;
       margin: 0;
@@ -135,7 +136,7 @@
   }
 
   .recentdescription {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 23px;
     padding: 0 20px;
     overflow: hidden;
@@ -147,6 +148,9 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    margin-top: 10px;
+
+
     @media (max-width: 900px) {
       display: none;
     }
@@ -175,8 +179,8 @@
     .svg-inline--fa:nth-of-type(1) path,
     a:nth-of-type(1) {
       display: inline !important;
-      font-size: 15px;
-      font-weight: 400;
+      font-size: 18px;
+      font-weight: 200;
       color: #7d7d7d;
       margin-right: 5px;
       @media (max-width: 600px) {
@@ -184,10 +188,12 @@
         padding: 0;
         color: #777777 !important;
         font-weight: 500 !important;
+        font-size: 16px;
       }
     }
     @media (max-width: 600px) {
       margin-bottom: 15px;
+
     }
   }
 
@@ -197,7 +203,7 @@
     margin: 0;
     font-size: 2.6ch;
     @media (max-width: 900px) {
-      height: auto!important;
+      height: auto;
       font-size: 19px!important;
       text-align: left;
       padding: 20px 20px!important !important;
@@ -206,11 +212,14 @@
     @media (max-width: 600px) {
       text-align: left!important;
       display: block;
-      float: left;
-      width: 60%;
+      float: none;
+      width: auto;
       line-height: 1.1;
-      font: 200 19px 'ovo',Arial,Sans-Serif !important;
-      padding: 15px 0 0 15px;
+      font: 500 19px 'catamaran',Arial,Sans-Serif !important;
+      padding: 20px 0 0 20px;
+      color: #4e4e4e;
+      height: 67px;
+      overflow-y: hidden;
     }
   }
 
@@ -246,7 +255,7 @@
   }
   @media (max-width:600px) {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     border: 0;
   }
 

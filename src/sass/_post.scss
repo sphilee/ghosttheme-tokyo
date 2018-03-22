@@ -306,10 +306,15 @@ aside .author_widget {
 .postfooter {
   margin: 40px 0 35px;
 
-  .social a {
-    width: 23%;
-    text-align: center;
-    white-space: nowrap;
+  .social {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      width: 23%;
+      text-align: center;
+      white-space: nowrap;
+    }
   }
 
   .tags {
@@ -324,6 +329,7 @@ aside .author_widget {
     margin-right: 5px;
     @media (max-width: 600px) {
       margin-right: 0;
+      font-size: 16px;
     }
   }
   @media (max-width: 1040px) {
