@@ -1,7 +1,7 @@
 var config = {
     // Disqus Shortname (http://disqus.com)
     // Options: Shortname / Blank ('') (Disabled)
-    'disqus_shortname': 'ecko',
+    'disqus_shortname': '',
     // Google Analytics ID (http://analytics.google.com)
     // Options: ID / Blank (Disabled)
     'analytics_id': 'UA-28282324-1',

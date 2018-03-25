@@ -10,6 +10,7 @@ jQuery(document).ready(function(){
         configureAnalytics();
         configureShortcodes();
         configureSidebar();
+        addIcons();
     })();
 
 
@@ -57,6 +58,13 @@ jQuery(document).ready(function(){
     jQuery(".inlinemenu > .graybar").click(function(){
         jQuery(".inlinemenu > .menu").toggle();
     });
+
+    function addIcons(){
+      jQuery(".inlinemenu > .menu li:nth-of-type(1) a").before('<i class="fal fa-outdent"></i>');
+      jQuery(".inlinemenu > .menu li:nth-of-type(2) a").before('<i class="fal fa-portrait"></i>');
+      jQuery(".inlinemenu > .menu li:nth-of-type(3) a").before('<i class="fal fa-wrench"></i>');
+      jQuery(".inlinemenu > .menu li:nth-of-type(4) a").before('<i class="fal fa-rocket"></i>');
+    }
 
 
     // HIDE EMPTY PAGINATION
