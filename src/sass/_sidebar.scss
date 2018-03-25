@@ -380,7 +380,7 @@ aside .author_widget {
     width: auto!important;
     border-radius: 6px;
     display: block !important;
-    border-bottom: 0;
+    border: 1px solid #ececec;
   }
   @media (max-width: 400px) {
     h3 {

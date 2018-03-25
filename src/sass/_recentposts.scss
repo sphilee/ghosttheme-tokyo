@@ -10,7 +10,7 @@
 
 .recentposts {
   width: 100%;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
 
   h3 {
     margin-top: 25px !important;
@@ -80,6 +80,7 @@
     border-radius: 6px 6px 0 0;
     overflow: hidden;
     transition: opacity 0.3s ease-out;
+    border-left: 1px solid #ececec;
 
     &:hover {
       opacity: 0.8;
@@ -204,7 +205,7 @@
     font-size: 2.6ch;
     @media (max-width: 900px) {
       height: auto;
-      font-size: 19px!important;
+      font-size: 18px!important;
       text-align: left;
       padding: 20px 20px!important !important;
       overflow: hidden;
@@ -215,7 +216,7 @@
       float: none;
       width: auto;
       line-height: 1.1;
-      font: 500 19px 'catamaran',Arial,Sans-Serif !important;
+      font: 500 18px 'catamaran',Arial,Sans-Serif !important;
       padding: 20px 0 0 20px;
       color: #4e4e4e;
       height: 67px;
@@ -256,7 +257,7 @@
   @media (max-width:600px) {
     width: 100%;
     margin-bottom: 10px;
-    border: 0;
+    border: 1px solid #ececec;
   }
 
   p:nth-of-type(2) {
