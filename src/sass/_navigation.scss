@@ -498,9 +498,10 @@
 
   .graybar {
     overflow: hidden;
-    margin: 0;
     cursor: pointer;
     display: none;
+    width: 94%;
+    margin: 0 auto;
     @media(max-width: 600px) {
       display: block;
     }

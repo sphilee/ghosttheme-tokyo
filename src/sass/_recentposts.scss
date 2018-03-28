@@ -15,6 +15,10 @@
   h3 {
     margin-top: 25px !important;
   }
+
+  @media (max-width:1040px) {
+    width: 94%;
+  }
 }
 
 .recent-container {
