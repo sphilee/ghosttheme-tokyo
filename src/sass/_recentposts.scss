@@ -36,9 +36,10 @@
 
     h4 {
       display: block;
-      font-size: 28px;
+      font-size: 32px;
       margin: 0 0 15px;
       padding-top: 15px;
+      color: #565656;
     }
 
     .recent-post:last-child {
@@ -180,10 +181,12 @@
     .svg-inline--fa:nth-of-type(1) path,
     a:nth-of-type(1) {
       display: inline !important;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 200;
       color: #7d7d7d;
-      margin-right: 5px;
+      @media (max-width: 900px) {
+        font-size: 14px;
+      }
       @media (max-width: 600px) {
         display: block;
         padding: 0;
@@ -200,16 +203,19 @@
 
   .recent-description-title {
     padding: 15px 15px 0;
-    line-height: 1.15;
+    line-height: 1.2;
     margin: 0;
     font-size: 2.6ch;
+    font-weight: 600;
+    color: #565656;
     @media (max-width: 900px) {
       height: auto;
       font-size: 18px!important;
       text-align: left;
-      padding: 20px 20px!important !important;
+      padding: 20px 20px 0 20px!important;
       overflow: hidden;
     }
+    /*
     @media (max-width: 600px) {
       text-align: left!important;
       display: block;
@@ -221,7 +227,7 @@
       color: #4e4e4e;
       height: 67px;
       overflow-y: hidden;
-    }
+    }*/
   }
 
   .largesolid.orange {

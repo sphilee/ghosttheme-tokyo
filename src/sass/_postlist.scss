@@ -40,7 +40,7 @@
       margin-right: 25px;
       font-size: 18px;
       @media (max-width: 600px) {
-        margin-right: 15px;
+        margin-right: 0;
       }
     }
   }
@@ -48,11 +48,10 @@
   article:last-child {
     margin-bottom: 0 !important;
   }
-
   @media (max-width: 1040px) {
     display: block;
 
-  article {
+    article {
       .largeimage {
         text-align: center;
 
@@ -112,8 +111,19 @@
       width: auto;
       color: #797979;
     }
-    @media(max-width: 800px) {
+    @media(max-width: 1280px) {
       .left a {
+        display: none;
+      }
+    }
+    @media(max-width: 600px) {
+      .right > .svg-inline--fa {
+        display: none;
+      }
+      .right .reading-time {
+        display: none;
+      }
+      .right .tags {
         display: none;
       }
     }
@@ -586,121 +596,68 @@
 }
 /* see above */
 /* HOMEPAGE (AND ASSOCIATED) ONLY: Link Color under post */
-.postlist article .info a {
-  color: #888888;
-}
+.postlist article {
+  .info a {
+    color: #888888;
 
-.postlist article .info a:hover {
-  color: #bb4730;
-}
-
-.postlist article .info a:hover,
-.postlist article h1 a:hover {
-  color: #b15d5d;
-}
-
-.postlist article .info:last-child {
-  margin-bottom: 0;
-}
-
-.postlist article .footer {
-  overflow: hidden;
-  padding: 25px 30px 0;
-
-  .right {
-    margin-left: 15px;
+    &:hover {
+      color: #bb4730;
+    }
   }
-}
 
-.post-template .postlist article .largeimage {
-  border-radius: 4px;
-}
-@media (max-width: 1040px) {
-  padding: 0;
-
-  .info {
-    padding: 0 !important;
+  .info a:hover,
+  h1 a:hover {
+    color: #b15d5d;
   }
-}
-/*
-@media (max-width: 600px) {
-  a {
-    margin-right: 0 !important;
-  }
-}*/
-@media (max-width: 260px) {
-  .postlist article .right {
-    display: none;
-  }
-}
 
-.post-template .postlist article h1 {
-  margin-left: 0 !important;
-}
+  .info:last-child {
+    margin-bottom: 0;
+  }
 
-.post-template .postlist article {
-  .info {
+  .footer {
     overflow: hidden;
-    z-index: 10;
-    display: block;
-    padding: 0 20px 10px;
+    padding: 25px 30px 0;
 
-    .left a {
-      color: white;
+    .right {
+      margin-left: 15px;
     }
 
-    .right a {
-      color: white;
+    .largeimage {
+      border-radius: 4px;
     }
-    @media (max-width: 600px) {
-      .tags {
-        display: none;
+  }
+  @media (max-width: 1040px) {
+    padding: 0;
+  }
+  @media (max-width: 260px) {
+    .postlist article .right {
+      display: none;
+    }
+  }
+
+  .post-template .postlist article {
+    h1 {
+      margin-left: 0 !important;
+    }
+
+    .info {
+      overflow: hidden;
+      z-index: 10;
+      display: block;
+      padding: 0 20px 10px;
+
+      .left a {
+        color: white;
+      }
+
+      .right a {
+        color: white;
+      }
+      @media (max-width: 600px) {
+        .tags {
+          display: none;
+        }
       }
     }
   }
 }
-/* is this worthless? */
-/*
-.header {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  height: 170px;
-  max-height: 170px;
-  border-radius: 4px;
-  background-color: #141313;
-  background-position: center;
-  background-size: cover;
-  display: none;
-
-  h5 {
-    font: 600 22px 'Montserrat', Arial, Sans-Serif;
-    line-height: 36px;
-    position: absolute;
-    z-index: 200;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-    transition: color 0.2s ease-out;
-    color: #fff;
-  }
-
-  .shadow {
-    position: absolute;
-    z-index: 100;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    transition: box-shadow 0.2s ease-out;
-    box-shadow: inset -10px -120px 61px -27px rgba(0, 0, 0, 0.55);
-  }
-
-  &:hover .shadow {
-    box-shadow: inset -10px -120px 61px -27px rgba(0, 0, 0, 0.7);
-  }
-}
-*/
