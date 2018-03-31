@@ -2,15 +2,17 @@
 
 # Toddzilla Ghost Theme
 
-Theme previewed live here: https://toddbirchard.com
+![ghost badge](https://img.shields.io/badge/ghost-1.22.0-green.svg?longCache=true&style=flat-square) ![ghost CLI badge](https://img.shields.io/badge/ghost_CLI-1.6.0-green.svg?longCache=true&style=flat-square) ![node badge](https://img.shields.io/badge/node-%3E6.9%20%3C7.*-green.svg?longCache=true&style=flat-square) ![gulp badge](https://img.shields.io/badge/gulp-3.9.1-green.svg?longCache=true&style=flat-square) ![gulp sass badge](https://img.shields.io/badge/gulp_sass-3.1.0-green.svg?longCache=true&style=flat-square) ![express-hbs badge](https://img.shields.io/badge/express_hbs-1.0.4-green.svg?longCache=true&style=flat-square) 
+
+Theme can be previewed here: https://toddbirchard.com
 
 ## Known Issues
 - SASS refactor
-- Ease of configuration
+- Configuration setup
 - Documentation
 
 ## Features
-- Fully responsive
+- Responsive
 - Featured posts
 - Related articles widget
 - Recent articles widget
@@ -18,7 +20,6 @@ Theme previewed live here: https://toddbirchard.com
 - Twitter widget
 - Gitub widget
 - Reading time
-
 
 ## Stack
 - Ghost
