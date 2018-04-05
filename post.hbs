@@ -11,9 +11,11 @@
   <div class="container {{post_class}}">
 
     <div class="titleintro" {{#if feature_image}} style="position:relative; background-image: url({{img_url feature_image}})" {{/if}}>
-      <h1>{{{title}}}</h1>
-      <span>{{excerpt}}</span>
-      <div style=""></div>
+      <div class="titlewrap">
+        <h1>{{{title}}}</h1>
+        <span>{{excerpt}}</span>
+      </div>
+      <div class="overlay"></div>
     </div>
 
 

@@ -3,8 +3,6 @@
 */
 
 
-
-
 .post-template {
   h1 {
     text-align: center;
@@ -13,151 +11,6 @@
 
   .toggle {
     margin-right: 30px;
-  }
-}
-
-.featureheader {
-  position: relative;
-  display: none;
-  width: 100%;
-  height: 600px;
-  background-color: #141313;
-  padding: 100px 0;
-
-  &.featured {
-    display: block;
-    border-bottom: 1px solid #ececec;
-  }
-
-  .logo {
-    position: absolute;
-    z-index: 500;
-    top: 30px;
-    left: 34px;
-    opacity: 0.8;
-    width:70px;
-    height:70px;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    img {
-      width: 100%;
-    }
-
-    @media (max-width:600px) {
-      width:50px;
-      height:50px;
-    }
-  }
-
-  .background {
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    background-color: #141313;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .wrapper {
-    z-index: 300;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    height: 5.5em;
-    right: 0;
-    text-align: center;
-  }
-
-  .title {
-    position: relative;
-
-    h1,
-    h1 a {
-      font: 900 6vw 'Roboto Slab',Arial,Sans-Serif;
-      line-height: 90px;
-      display: block;
-      color: #fff;
-      text-align: center;
-      text-shadow: -3px 2px #222, -3px -1px #222, 1px -1px #222, -1px -1px #222, -1px 1px #222, 1px -1px #222, 1px 2px #222, -4px 2px #222;
-      text-transform: uppercase;
-
-      :hover {
-        border-color: #fff;
-      }
-    }
-    @media (max-width:600px) {
-      font-size: 36px;
-      padding: 20px;
-      line-height: 1;
-    }
-  }
-
-  
-
-  .tags {
-    a {
-      display: none;
-    }
-
-    i {
-      display: inline;
-    }
-
-    a:nth-of-type(1) {
-      display: inline;
-    }
-
-    .banner,
-    .feature {
-      display: none;
-    }
-  }
-  @media (max-width: 1024px) {
-    .background {
-      background-attachment: scroll !important;
-    }
-  }
-  @media (max-width: 985px) {
-    .title {
-      width: auto;
-      margin: 0;
-    }
-  }
-  @media (max-width: 810px) {
-    height: 500px;
-
-    .tags {
-      display: none;
-    }
-  }
-  @media (max-width: 600px) {
-    height: 300px;
-
-    .title h1,
-    .title h1 a {
-      font-size: 36px;
-      line-height: 1.2;
-    }
-
-    .date {
-      display: none;
-    }
-  }
-  @media (max-width: 360px) {
-    .title h1,
-    .title h1 a {
-      font-size: 28px;
-      line-height: 48px;
-    }
   }
 }
 
@@ -171,7 +24,7 @@
 
   h1,
   h1 a {
-    font: 600 4vw 'Roboto Slab',Arial,Sans-Serif;
+    font: 600 4vw 'Montserrat',Arial,Sans-Serif;
     margin: 0 0 5px;
     line-height: 1.2;
   }

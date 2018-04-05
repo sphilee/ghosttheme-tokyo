@@ -1,7 +1,6 @@
 /*
     POST LIST
 */
-
 /* applies to all inckuding posts */
 .postlist {
   .author_widget {
@@ -21,12 +20,12 @@
     margin-bottom: 15px;
 
     .left a,
-    .right a,
-    .reading-time {
+    .reading-time,
+    .right a {
       color: $faded_text;
-      font: 400 14px 'Roboto Slab',Arial,Sans-Serif;
+      font: 400 16px 'Montserrat',Arial,Sans-Serif;
       display: inline-block;
-      float:none;
+      float: none;
     }
 
     a {
@@ -93,23 +92,21 @@
     margin: 50px 0 0;
   }
 }
-
 /* does not apply to posts */
-
 .postlist article {
   .info {
     overflow: hidden;
     padding: 10px 0;
 
     .svg-inline--fa {
-      font-size: 14px;
+      font-size: 12px;
       width: auto;
       color: $faded_text;
     }
 
     .footer {
       overflow: hidden;
-      padding: 25px 30px 0;
+      padding: 0 30px;
 
       .right {
         margin-left: 15px;
@@ -127,11 +124,10 @@
     @media (max-width: 1040px) {
       padding: 0;
     }
-
     @media(max-width: 600px) {
       /* hides tags on mobile */
       .right {
-        &>.svg-inline--fa,
+        & > .svg-inline--fa,
         .reading-time,
         .tags {
           display: none;
@@ -234,7 +230,7 @@
   .footer {
     overflow: hidden;
     font-weight: 600;
-    padding: 25px 40px 0 30px;
+    padding: 0 40px 0 30px;
 
     .largesolid.orange {
       border-radius: 10px;
@@ -265,12 +261,10 @@
 
     a {
       font: 400 18px 'Open Sans', Arial, Sans-Serif;
-      color:$darkest_text;
-
+      color: $faded_text;
       &:hover {
         color: $accent_color;
       }
-
       @media (max-width: 600px) {
         margin-right: 0;
         font-size: 17px;
@@ -279,22 +273,20 @@
 
     .left {
       margin-top: 14px;
-      font-weight: 200;
-      font-size: 18px;
-
       & > a {
         margin-right: 25px;
+        font: 400 17px 'Montserrat',Arial,Sans-Serif;
       }
-
       & > a .svg-inline--fa {
         margin-right: 10px;
       }
-
       span a .svg-inline--fa {
         margin-right: 5px;
       }
-
       .tags {
+        a {
+          font: 400 17px 'Montserrat',Arial,Sans-Serif;
+        }
         @media (max-width: 700px) {
           display: none;
         }
@@ -334,7 +326,6 @@
       padding: 0 25px !important;
       height: 60px;
       margin-bottom: 15px;
-      margin-top: 15px;
 
       .tags {
         display: none;
@@ -391,7 +382,6 @@
     h1 a {
       position: absolute;
       z-index: 200;
-      z-index: 200;
       bottom: 0;
       left: 0;
       width: 100%;
@@ -411,13 +401,11 @@
       box-shadow: inset -10px -244px 131px -27px rgba(0, 0, 0, 0.75);
     }
   }
-
   @media (max-width: 475px) {
     .likesbutton {
       display: none;
     }
   }
-
   @media (max-width: 600px) {
     h1 {
       font-size: 35px;
@@ -444,15 +432,15 @@
     box-shadow: 0 0 20px #e8e8e8;
 
     p {
-      padding: 0 30px;
-
+      padding: 0 20px;
       @media(max-width: 700px) {
         padding: 0 20px;
+        margin-bottom: 15px;
       }
     }
 
     h1 {
-      margin: 30px 30px 20px;
+      margin: 30px 20px 20px;
       text-align: left;
     }
 

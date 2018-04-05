@@ -36,11 +36,7 @@ header {
   }
 }
 
-aside {
-  padding: 20px;
-  background: #fdfdfd;
-  border-radius: 6px;
-}
+
 
 .container {
   width: 84%;
@@ -66,7 +62,7 @@ aside {
   }
 }
 .page-template .customcontainer {
-    width: 94%;
+    width: 98%;
     margin: 0 auto;
 }
 .customcontainer {
@@ -104,9 +100,9 @@ aside {
   }
 }
 
-.home-template .alternate,
-.tag-template .alternate {
-  width: 300px;
+.post-template .alternate,
+.page-template .alternate {
+  width: 260px;
 }
 
 .backtotop {
