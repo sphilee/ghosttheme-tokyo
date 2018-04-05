@@ -5,34 +5,27 @@
 
 }}
 
-    <div class="header {{post_class}}">
+<div class="header {{post_class}}">
 
-        {{#has tag="feature"}}
+  {{#has tag="feature" }}
 
-            <div class="largeimage postfeature" {{#if feature_image}} style="background-image: url({{img_url feature_image}})" {{/if}}>
-            </div>
-        {{/has}}
-        {{#has tag="banner"}}
-
-            <div class="basicfeature postfeature" href="{{url}}" {{#if banner_image}} style="background-image: url({{img_url banner_image}})" {{/if}}>
-              <h1>{{{title}}}</h1>
-            </div>
-        {{/has}}
-
-        <div class="info">
-            <div class="left">
-                <a href="{{url}}" class="date"><i class="fal fa-clock"></i>{{date format="MMMM Do, YYYY"}}</a>
-                <span class="tags">
-                    <i class="fal fa-tags"></i>
-                    {{#foreach tags}}
-                        <a href="{{url}}" class="{{name}}">{{name}}</a>
-                    {{/foreach}}
-                </span>
-            </div>
-            <div class="right">
-              <i class="fal fa-eye"></i>
-              <div class="right reading-time">
-            </div>
-        </div>
-        </div>
+    <div class="largeimage postfeature" {{#if feature_image}} style="background-image: url({{img_url feature_image}})" {{/if}}>
     </div>
+  {{/has}}
+  {{#has tag="banner" }}
+
+    <div class="basicfeature postfeature" href="{{url}}" {{#if banner_image}} style="background-image: url({{img_url banner_image}})" {{/if}}>
+      <h1>{{{title}}}</h1>
+    </div>
+  {{/has}}
+
+  <div class="info">
+    <div class="left">
+      <a href="{{url}}" class="date"><i class="fal fa-clock"></i>{{date format="MMMM Do, YYYY"}}</a>
+      <span class="tags"><i class="fal fa-tags"></i>{{#foreach tags}}<a href="{{url}}" class="{{name}}">{{name}}</a>{{/foreach}}</span>
+    </div>
+    <div class="right">
+      <i class="fal fa-eye"></i><span class="right reading-time"></span>
+    </div>
+  </div>
+</div>

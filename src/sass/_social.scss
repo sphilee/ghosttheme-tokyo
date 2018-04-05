@@ -1,6 +1,57 @@
 /*
     SOCIAL BUTTONS
 */
+
+.social_widget {
+  .twitter {
+    color: $twitter_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+  .angellist {
+    color: $github_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+  .github {
+    color: $github_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+  .quora {
+    color: $quora_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+  .linkedin {
+    color: $linkedin_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+  .rss {
+    color: $rss_color;
+    transition: .2s all ease-out;
+    &:hover {
+      color: $accent_color;
+      font-size: 20px;
+    }
+  }
+}
 .social_outline {
   position: relative;
   display: inline-block;
@@ -8,11 +59,11 @@
   height: 32px;
   transition: border-color 0.2s ease-in, color 0.1s ease-in, background 0.2s ease-in;
   text-align: center;
-  border: 1px solid #000;
+  border: 0 solid #000;
   border-radius: 60px;
 
   .svg-inline--fa {
-    vertical-align: -8px !important;
+    vertical-align: -7px !important;
   }
 
   &.twitter {

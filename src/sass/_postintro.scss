@@ -53,10 +53,10 @@
   }
 
   h1 {
-    font: 900 6.5ch 'Roboto Slab',Serif;
+    font: 600 5ch 'Montserrat',Sans-Serif;
     line-height: normal;
     line-height: 1;
-    padding: 40px 0 20px;
+    padding: 0 0 20px;
     color: #fff;
     position: relative;
     z-index: 3;
@@ -64,12 +64,12 @@
     margin: auto;
     text-transform: uppercase;
     @media(max-width: 1040px) {
-      font: 600 5.5ch 'Roboto Slab',Serif;
+      font: 600 5.5ch 'Montserrat',Serif;
       line-height: 1.1;
       padding: 100px 0 20px;
     }
     @media(max-width: 800px) {
-      font: 600 4ch 'Roboto Slab',Serif;
+      font: 600 4ch 'Montserrat',Serif;
       line-height: 1.1;
     }
   }
@@ -78,7 +78,7 @@
     color: #fff;
     z-index: 10;
     position: relative;
-    font: 500 24px 'Quattrocento',Arial,Sans-Serif;
+    font: 400 18px 'Roboto Slab', Serif;
     width: 60%;
     display: block;
     margin: auto;
@@ -107,5 +107,8 @@
     height: 100%;
     background: black;
     left: 0;
+    @media(max-width: 1040px) {
+      border-radius: 0;
+    }
   }
 }

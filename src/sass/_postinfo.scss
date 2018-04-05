@@ -1,0 +1,36 @@
+.minigravatar {
+  display: none;
+  @media(max-width:1280px){
+    display: inline-block;
+  }
+}
+
+.page-template .info {
+  display: none;
+}
+
+.featureheader {
+  .info {
+    a {
+      font: 400 17px 'Open Sans', Arial, Sans-Serif;
+      opacity: 0.75;
+      color: #fff;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    i {
+      margin-right: 10px;
+      color: #fff;
+    }
+
+    .date {
+      margin-right: 25px;
+      @media (max-width:600px) {
+        display: none;
+      }
+    }
+  }
+}

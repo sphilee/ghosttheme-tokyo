@@ -2,10 +2,6 @@
     SIDEBAR
 */
 
-aside .author_widget {
-  padding-top: 10px;
-}
-
 aside {
   h4 {
     font-weight: 300;
@@ -14,7 +10,7 @@ aside {
     font-family: helvetica;
     padding-bottom: 10px;
     margin: 0 0 10px;
-    font: 500 26px 'Roboto Slab',Arial,Sans-Serif;
+    font: 500 26px 'Roboto Slab',Helvetica, Sans-Serif;
     text-align: center;
 
     i {
@@ -64,7 +60,7 @@ aside {
   }
 
   p {
-    font: 400 16px 'Catamaran', Arial, Sans-Serif;
+    font: 400 16px 'Catamaran', Helvetica, Sans-Serif;
     line-height: 1.6;
     margin: 0;
     color: #2b2626;
@@ -117,7 +113,7 @@ aside {
     margin-bottom: 0;
 
     p {
-      font: 400 19px 'Catamaran',Arial,Sans-Serif;
+      font: 400 19px 'Catamaran',Helvetica, Sans-Serif;
       text-align: right;
       line-height: 1.3;
       width: 41%;
@@ -185,10 +181,45 @@ aside {
     }
   }
 }
+
+/* TAG LINKS WIDGET */
+
+.tags_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      a {
+        font: 300 12px 'Montserrat', Arial, Sans-Serif;
+        display: inline-block;
+        float: left;
+        margin: 0 6px 12px 0;
+        padding: 6px 14px;
+        color: $darkest_text;
+        border-radius: 4px;
+        background: #fff;
+        border: 1px solid #ececec;
+
+          &:hover {
+              color: #fff;
+              background: $accent_color;
+          }
+      }
+  }
+}
+
 /* SOCIAL LINKS WIDGET */
 .social_widget {
   text-align: justify;
-  height: 93px;
+  height: 67px;
+padding: 20px 10px;
 
   a {
     font-size: 15px;
@@ -238,7 +269,7 @@ aside {
     color: #292F33;
     font-family: helvetica;
     margin: 0;
-    font: 200 21px 'Roboto Slab',Arial,Sans-Serif;
+    font: 200 21px 'Roboto Slab',Helvetica, Sans-Serif;
     border-radius: 6px;
   }
 }
@@ -272,7 +303,6 @@ aside {
 /* WIDGET - AUTHOR */
 aside .author_widget {
   display: block !important;
-  border-radius: 8px;
   padding: 10px 10px 20px;
 
   .avatar {
@@ -284,26 +314,11 @@ aside .author_widget {
   }
 
   h3 {
-    font: 500 20px 'Roboto Slab',Arial,Sans-Serif;
+    font: 500 20px 'Roboto Slab',Helvetica, Sans-Serif;
     color: #2b2626;
     margin: 1px 0 -3px;
   }
-
-  span {
-    font-size: 15px;
-  }
-
-  a {
-    font: 12px 'Catamaran',Arial,Sans-Serif;
-  }
-
-  p {
-    font: 15px 'Catamaran',Arial,Sans-Serif;
-    text-align: left;
-  }
 }
-
-.container > .author_widget p {}
 
 .author_widget {
   display: none;
@@ -329,8 +344,8 @@ aside .author_widget {
 
   h3,
   h3 a {
-    font: 500 20px 'Roboto Slab',Arial,Sans-Serif;
-    color: #2b2626;
+    font: 500 20px 'Roboto Slab',Helvetica, Sans-Serif;
+    color: $darkest_text;
     margin: 1px 0 -3px;
 
     &:hover {
@@ -340,13 +355,15 @@ aside .author_widget {
 
   span {
     display: block;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: -7px;
+    color: $darkest_text;
     font-weight: 200;
+    font-family: 'Roboto Slab';
   }
 
   .author_url {
-    font: 500 14px 'Catamaran',Arial,Sans-Serif;
+    font: 500 14px 'Catamaran',Helvetica, Sans-Serif;
     color: #a97979;
     line-height: 1;
 
@@ -356,13 +373,13 @@ aside .author_widget {
   }
 
   p {
-    font: 16px 'Catamaran', Arial, Sans-Serif;
+    font: 100 14px 'Catamaran', Helvetica, Sans-Serif;
     line-height: 1.5;
     color: #2b2626;
     margin-bottom: 0;
     margin-top: 10px;
     @media (max-width: 600px) {
-      font: 14px 'Catamaran',Arial,Sans-Serif;
+      font: 100 14px 'Catamaran',Helvetica, Sans-Serif;
     }
   }
 
@@ -398,7 +415,7 @@ aside .author_widget {
 
     .author_url {
       margin-right: 0;
-      font: 14px 'Catamaran',Arial,Sans-Serif;
+      font: 14px 'Catamaran',Helvetica, Sans-Serif;
     }
 
     .avatar {
@@ -435,7 +452,7 @@ aside .postlist {
       display: none;
     }
   }
-
+/*
   .info {
     float: left;
     width: 77.8%;
@@ -445,7 +462,7 @@ aside .postlist {
       margin-left: 0;
     }
   }
-
+*/
   h5,
   h5 a {
     line-height: 24px;
@@ -460,7 +477,7 @@ aside .postlist {
   }
 
   small {
-    font: 400 14px 'Catamaran', Arial, Sans-Serif;
+    font: 400 14px 'Catamaran', Helvetica, Sans-Serif;
     display: block;
     margin-top: 10px;
     color: #ececec;
@@ -498,13 +515,13 @@ aside .widget:last-child {
   }
 
   h5 {
-    font: 400 18px 'Montserrat',Arial,Sans-Serif;
+    font: 400 18px 'Montserrat',Helvetica, Sans-Serif;
     line-height: 1.3;
     margin: 0;
   }
 
   p {
-    font: 14px 'Catamaran',Arial,Sans-Serif;
+    font: 14px 'Catamaran',Helvetica, Sans-Serif;
     line-height: 1.4;
     color: #353535;
     margin: 10px 0;
@@ -549,7 +566,7 @@ aside .widget:last-child {
     a,
     i {
       font-size: 14px;
-      color: #797979;
+      color: $faded_text;
     }
 
     .svg-inline--fa.fa-w-20 {

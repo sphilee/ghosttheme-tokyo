@@ -200,37 +200,7 @@
     }
 }
 
-.tags_list {
-  list-style: none;
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.tags_list,
-.tags_list li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.tags_list li a {
-  font: 300 12px 'Montserrat', Arial, Sans-Serif;
-  display: inline-block;
-  float: left;
-  margin: 0 6px 12px 0;
-  padding: 6px 14px;
-  color: #656565;
-  border-radius: 4px;
-  background: #fff;
-  border: 1px solid #ececec;
-
-    &:hover {
-        color: #fff;
-        background: $accent_color;
-    }
-}
 
 @media (max-width:600px) {
   .post-template article .largesolid.orange {

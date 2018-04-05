@@ -27,7 +27,7 @@ h4,
 h4 a,
 h5,
 h5 a {
-    color: #2b2626
+    color: $darkest_text
 }
 
 a,
@@ -231,7 +231,7 @@ textarea {
     vertical-align: top;
     width: 100%;
     margin: 30px 0;
-    font: 400 14px 'Catamaran', Arial, Sans-Serif;
+    font: 400 14px 'Open Sans', Helvetica, Sans-Serif;
     padding: 14px 20px 13px;
     transition: border .3s ease-out;
     color: #424242;
@@ -269,7 +269,7 @@ aside .postlist li {
 
 body,
 html {
-    font: 400 16px 'Catamaran', Arial, Sans-Serif;
+    font: 100 18px 'Open Sans', Helvetica, Sans-Serif;
     background: #f8f8f8;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -290,9 +290,9 @@ html *{
 }
 
 p {
-    font: 400 19px 'Catamaran', Arial, Sans-Serif;
+    font: 100 19px 'Open Sans', Helvetica, Sans-Serif;
     line-height: 1.5;
-    color: #353535;
+    color: $body_text;
 
     &::selection {
       background: $accent_color;
@@ -302,7 +302,7 @@ p {
 
 a {
     background: 0 0;
-    font: 400 19px 'Catamaran', Arial, Sans-Serif;
+    font: 400 19px 'Open Sans', Helvetica, Sans-Serif;
     transition: opacity .2s ease-out, border .2s ease-out, color .1s ease-out;
     text-decoration: none
 }
@@ -341,33 +341,33 @@ table {
 
 h1,
 h1 a {
-    font: 600 3em 'Roboto Slab', Arial, Sans-Serif;
+    font: 500 3em 'montserrat', Helvetica, Sans-Serif;
     line-height: 1;
     margin: 20px 0
 }
 
 h2,
 h2 a {
-    font: 500 2.8em 'Roboto Slab',Arial,Sans-Serif;
+    font: 400 2em 'Roboto Slab',Arial,Sans-Serif;
     line-height: 36px
 }
 
 h3,
 h3 a {
-    font: 200 28px 'Roboto Slab', Arial, Sans-Serif;
+    font: 200 28px 'Roboto Slab', Helvetica, Sans-Serif;
     line-height: 36px
 }
 
 h4,
 h4 a {
-    font: 200 24px 'Roboto Slab', Arial, Sans-Serif;
+    font: 200 24px 'Roboto Slab', Helvetica, Sans-Serif;
     line-height: 1;
     margin: 20px 0 0;
 }
 
 h5,
 h5 a {
-    font: 500 20px 'Roboto Slab', Arial, Sans-Serif;
+    font: 500 20px 'Roboto Slab', Helvetica, Sans-Serif;
     line-height: 36px
 }
 
@@ -470,7 +470,7 @@ hr {
 
 .left {
     float: left;
-    color: #797979;
+    color: $faded_text;
 
     .svg-inline--fa {
       margin-right: 5px;
@@ -480,11 +480,10 @@ hr {
 .content,
 .right {
     float: right;
-    color: #797979;
 }
 
 input {
-  font: 400 14px 'Catamaran', Arial, Sans-Serif;
+  font: 400 14px 'Open Sans', Helvetica, Sans-Serif;
   padding: 14px 20px 13px;
   transition: border .3s ease-out;
   color: #424242;

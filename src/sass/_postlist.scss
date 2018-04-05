@@ -1,6 +1,8 @@
 /*
     POST LIST
 */
+
+/* applies to all inckuding posts */
 .postlist {
   .author_widget {
     display: none;
@@ -11,7 +13,7 @@
   }
 
   .info {
-    padding: 0 0 10px !important;
+    padding: 0 0 15px !important;
     overflow: hidden;
     z-index: 10;
     display: block;
@@ -19,21 +21,20 @@
     margin-bottom: 15px;
 
     .left a,
-    .right a {
-      color: #797979 !important;
-      font-weight: 500;
-      font: 400 18px 'Catamaran',Arial,Sans-Serif;
+    .right a,
+    .reading-time {
+      color: $faded_text;
+      font: 400 14px 'Roboto Slab',Arial,Sans-Serif;
+      display: inline-block;
+      float:none;
+    }
+
+    a {
       transition: all 0.2s ease-out;
 
       &:hover {
         color: #b15d5d !important;
       }
-    }
-
-    .reading-time {
-      color: #797979 !important;
-      font-weight: 500;
-      font: 400 18px 'Catamaran',Arial,Sans-Serif;
     }
 
     .date {
@@ -59,7 +60,7 @@
 
         .inlinetext p,
         p:first-child {
-          margin-top: 20px;
+          margin-top: 25px;
         }
 
         h1 {
@@ -88,20 +89,12 @@
   }
 
   article p.inlinelower {
-    font-weight: 400;
     clear: both;
     margin: 50px 0 0;
   }
 }
 
-.content {
-  .info_widget {
-    display: none;
-    @media (max-width: 1040px) {
-      display: block;
-    }
-  }
-}
+/* does not apply to posts */
 
 .postlist article {
   .info {
@@ -111,22 +104,38 @@
     .svg-inline--fa {
       font-size: 14px;
       width: auto;
-      color: #797979;
+      color: $faded_text;
+    }
+
+    .footer {
+      overflow: hidden;
+      padding: 25px 30px 0;
+
+      .right {
+        margin-left: 15px;
+      }
+
+      .largeimage {
+        border-radius: 4px;
+      }
     }
     @media(max-width: 1280px) {
       .left a {
         display: none;
       }
     }
+    @media (max-width: 1040px) {
+      padding: 0;
+    }
+
     @media(max-width: 600px) {
-      .right > .svg-inline--fa {
-        display: none;
-      }
-      .right .reading-time {
-        display: none;
-      }
-      .right .tags {
-        display: none;
+      /* hides tags on mobile */
+      .right {
+        &>.svg-inline--fa,
+        .reading-time,
+        .tags {
+          display: none;
+        }
       }
     }
   }
@@ -168,21 +177,15 @@
   }
 
   p.inlinelower {
-    font-weight: 400;
     clear: both;
     margin: 50px 0 0;
   }
 
-  p.light {
-    font-weight: 400;
-  }
-
   .info {
     overflow: hidden;
-    padding: 10px 0;
 
     .fa-eye {
-      color: #797979;
+      color: $faded_text;
     }
 
     .author {
@@ -215,7 +218,7 @@
     }
 
     a {
-      font: 400 17px 'Catamaran', Arial, Sans-Serif;
+      font: 400 17px 'Open Sans', Arial, Sans-Serif;
       color: #858585;
 
       &:hover {
@@ -261,8 +264,13 @@
     }
 
     a {
-      font: 400 18px 'Catamaran', Arial, Sans-Serif;
-      color: #888888;
+      font: 400 18px 'Open Sans', Arial, Sans-Serif;
+      color:$darkest_text;
+
+      &:hover {
+        color: $accent_color;
+      }
+
       @media (max-width: 600px) {
         margin-right: 0;
         font-size: 17px;
@@ -306,7 +314,6 @@
       }
 
       a {
-        color: #888888;
         @media (max-width: 600px) {
           font-size: 17px;
           margin-right: 0;
@@ -405,43 +412,12 @@
     }
   }
 
-  .linkbox {
-    font: 400 24px 'Catamaran', Arial, Sans-Serif;
-    line-height: 48px;
-    display: block;
-    padding: 30px;
-    transition: background 0.3s ease-out;
-    color: #fff;
-    border-radius: 4px;
-    background: #272b30;
-
-    .svg-inline--fa {
-      margin-right: 20px;
-      color: #5f6a77;
-    }
-
-    &:hover {
-      background: #414850;
-
-      .svg-inline--fa {
-        color: #fff;
-      }
-    }
-    @media (max-width: 735px) {
-      font-size: 20px;
-    }
-  }
   @media (max-width: 475px) {
     .likesbutton {
       display: none;
     }
   }
 
-  &.standard {
-    .postcontents p:nth-of-type(1) {
-      font-weight: 400;
-    }
-  }
   @media (max-width: 600px) {
     h1 {
       font-size: 35px;
@@ -456,187 +432,76 @@
   }
 }
 
-.author-template .postlist article,
-.home-template .postlist article,
-.paged .postlist article,
-.tag-template .postlist article {
-  border-radius: 16px;
-  margin-bottom: 30px;
-  background-color: #fff;
-  border: 1px solid #dedede;
-  box-shadow: 0 0 20px #e8e8e8;
+.author-template,
+.home-template,
+.paged,
+.tag-template {
+  .postlist article {
+    border-radius: 16px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 20px #e8e8e8;
 
-  p {
-    padding: 0 30px;
+    p {
+      padding: 0 30px;
 
-    &.light {
-      font-weight: 400;
-    }
-    @media(max-width: 700px) {
-      padding: 0 20px;
-    }
-  }
-
-  h1 {
-    margin: 30px 30px 20px;
-    text-align: left;
-  }
-
-  &:first-child {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
-  &.postfeature {
-    display: block;
-  }
-
-  &.basicfeature,
-  &.inlinefeature {
-    width: 100%;
-    height: 260px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    background-color: #141313;
-    background-position: center;
-    background-size: cover;
-  }
-
-  &.light {
-    font-weight: 400;
-  }
-
-  .largeimage {
-    margin: 10px;
-
-    &:hover {
-      opacity: 0.8;
+      @media(max-width: 700px) {
+        padding: 0 20px;
+      }
     }
 
-    h1,
-    h1 a {
-      position: absolute;
-      z-index: 200;
-      bottom: 0;
-      left: 0;
-      width: 100%;
+    h1 {
       margin: 30px 30px 20px;
-      transition: color 0.3s ease-out;
-      color: #fff;
-      text-shadow: -1px 1px #2b2626;
+      text-align: left;
     }
 
-    &:hover h1 a {
-      color: $accent_color;
+    &:first-child {
+      margin-top: 0;
+      padding-top: 0;
     }
-  }
-  @media (max-width: 600px) {
-    margin-bottom: 15px;
-  }
-}
 
-.postlist .quote {
-  .quotebox {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding: 40px;
-    border-radius: 4px;
-    background: #242121;
-  }
-
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.18;
-    background-position: center;
-    background-size: cover;
-  }
-
-}
-/* NEEDS TO BE SORTED */
-/* HOMEPAGE (AND ASSOCIATED) ONLY: Article Details under image */
-.author-template .postlist article .info,
-.home-template .postlist article .info,
-.paged .postlist article .info,
-.tag-template .postlist article .info {
-  overflow: hidden;
-  padding: 15px 30px;
-}
-
-.postcontents {
-  a {
-    font: 100 19px 'Catamaran',Arial,Sans-Serif;
-    color: #b15d5d;
-  }
-}
-/* see above */
-/* HOMEPAGE (AND ASSOCIATED) ONLY: Link Color under post */
-.postlist article {
-  .info a {
-    color: #888888;
-
-    &:hover {
-      color: #bb4730;
+    &.postfeature {
+      display: block;
     }
-  }
 
-  .info a:hover,
-  h1 a:hover {
-    color: #b15d5d;
-  }
-
-  .info:last-child {
-    margin-bottom: 0;
-  }
-
-  .footer {
-    overflow: hidden;
-    padding: 25px 30px 0;
-
-    .right {
-      margin-left: 15px;
+    &.basicfeature,
+    &.inlinefeature {
+      width: 100%;
+      height: 260px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      background-color: #141313;
+      background-position: center;
+      background-size: cover;
     }
 
     .largeimage {
-      border-radius: 4px;
-    }
-  }
-  @media (max-width: 1040px) {
-    padding: 0;
-  }
-  @media (max-width: 260px) {
-    .postlist article .right {
-      display: none;
-    }
-  }
+      margin: 10px;
 
-  .post-template .postlist article {
-    h1 {
-      margin-left: 0 !important;
-    }
-
-    .info {
-      overflow: hidden;
-      z-index: 10;
-      display: block;
-      padding: 0 20px 10px;
-
-      .left a {
-        color: white;
+      &:hover {
+        opacity: 0.8;
       }
 
-      .right a {
-        color: white;
+      h1,
+      h1 a {
+        position: absolute;
+        z-index: 200;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin: 30px 30px 20px;
+        transition: color 0.3s ease-out;
+        color: #fff;
+        text-shadow: -1px 1px #2b2626;
       }
-      @media (max-width: 600px) {
-        .tags {
-          display: none;
-        }
+
+      &:hover h1 a {
+        color: $accent_color;
       }
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 15px;
     }
   }
 }
