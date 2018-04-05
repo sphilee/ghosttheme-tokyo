@@ -1,6 +1,11 @@
 /*
     SIDEBAR
 */
+
+aside .author_widget {
+  padding-top: 10px;
+}
+
 aside {
   h4 {
     font-weight: 300;
@@ -9,7 +14,7 @@ aside {
     font-family: helvetica;
     padding-bottom: 10px;
     margin: 0 0 10px;
-    font: 500 26px 'ovo',Arial,Sans-Serif;
+    font: 500 26px 'Roboto Slab',Arial,Sans-Serif;
     text-align: center;
 
     i {
@@ -233,7 +238,7 @@ aside {
     color: #292F33;
     font-family: helvetica;
     margin: 0;
-    font: 200 21px 'ovo',Arial,Sans-Serif;
+    font: 200 21px 'Roboto Slab',Arial,Sans-Serif;
     border-radius: 6px;
   }
 }
@@ -279,7 +284,7 @@ aside .author_widget {
   }
 
   h3 {
-    font: 500 20px 'ovo',Arial,Sans-Serif;
+    font: 500 20px 'Roboto Slab',Arial,Sans-Serif;
     color: #2b2626;
     margin: 1px 0 -3px;
   }
@@ -324,7 +329,7 @@ aside .author_widget {
 
   h3,
   h3 a {
-    font: 500 20px 'ovo',Arial,Sans-Serif;
+    font: 500 20px 'Roboto Slab',Arial,Sans-Serif;
     color: #2b2626;
     margin: 1px 0 -3px;
 

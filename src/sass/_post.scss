@@ -1,126 +1,14 @@
 /*
     POST
 */
-.titleintro {
-  margin-bottom: 15px;
-  padding: 140px 20px 120px;
-  margin-top: -80px;
-  border-radius: 0 0 8px 8px;
-  background-size: cover;
-  background-position: center;
-  @media(max-width: 1040px) {
-    padding: 120px 20px 100px;
-    border-radius: 0;
-    margin-left: -10%;
-    margin-bottom: 15px;
-  }
-  @media(max-width: 800px) {
-    line-height: 1.3;
-  }
 
-  .date,
-  .tag {
-    text-align: center;
-    margin: 0 auto;
-    color: #fff;
-    font-size: 18px !important;
-    font-weight: 600;
-    position: relative;
-    z-index: 3;
 
-    a {
-      display: none;
-      color: #fff;
-      font-weight: 400;
 
-      &:nth-of-type(1) {
-        display: inline;
-        font-weight: 600;
-      }
-    }
-  }
-
-  .svg-inline--fa.fa-w-16 {
-    margin-right: 10px;
-    font-size: 15px;
-    color: #fff;
-  }
-
-  .svg-inline--fa.fa-w-20 {
-    margin-right: 5px;
-    font-size: 13px;
-    color: #fff;
-  }
-
-  h1 {
-    font: 900 6.5ch 'Avenir',Arial,Sans-Serif;
-    font-family: 'Avenir',Arial,Sans-Serif;
-    line-height: normal;
-    line-height: 1;
-    padding: 40px 0 20px;
-    color: #fff;
-    position: relative;
-    z-index: 3;
-    width: 93%;
-    margin: auto;
-    text-transform: uppercase;
-    @media(max-width: 1040px) {
-      font: 600 5.5ch 'Avenir',Arial,Sans-Serif;
-      line-height: 1.1;
-      padding: 100px 0 20px;
-    }
-    @media(max-width: 800px) {
-      font: 600 4ch 'Avenir',Arial,Sans-Serif;
-      line-height: 1.1;
-    }
-  }
-
-  span {
-    color: #fff;
-    z-index: 10;
-    position: relative;
-    font: 500 24px 'Quattrocento',Arial,Sans-Serif;
-    width: 60%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    line-height: 1.3 !important;
-    @media(max-width: 1040px) {
-      width: 70%;
-      font: 500 22px 'Quattrocento',Arial,Sans-Serif;
-    }
-    @media(max-width: 800px) {
-      width: 85%;
-      font: 500 20px 'Quattrocento',Arial,Sans-Serif;
-    }
-    @media(max-width: 700px) {
-      font: 500 20px 'Quattrocento',Arial,Sans-Serif;
-    }
-  }
-
-  div:last-child {
-    top: 0;
-    z-index: 0;
-    opacity: 0.75 !important;
-    border-radius: 0 0 8px 8px;
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    background: black;
-    left: 0;
-  }
-}
-
-aside .author_widget {
-  padding-top: 10px;
-}
 
 .post-template {
   h1 {
     text-align: center;
-    margin-top: -25px !important;
-    margin-bottom: 11px !important;
-    margin-bottom: 0 !important;
+    margin: -25px auto 0 auto;
   }
 
   .toggle {
@@ -194,7 +82,7 @@ aside .author_widget {
 
     h1,
     h1 a {
-      font: 900 6vw 'Avenir',Arial,Sans-Serif;
+      font: 900 6vw 'Roboto Slab',Arial,Sans-Serif;
       line-height: 90px;
       display: block;
       color: #fff;
@@ -305,7 +193,7 @@ aside .author_widget {
 
   h1,
   h1 a {
-    font: 600 4vw 'ovo',Arial,Sans-Serif;
+    font: 600 4vw 'Roboto Slab',Arial,Sans-Serif;
     margin: 0 0 5px;
     line-height: 1.2;
   }
