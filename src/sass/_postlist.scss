@@ -247,7 +247,7 @@
       transition: all 0.2s ease-out;
       padding: 15px 35px;
       @media (max-width:600px) {
-        font-size: 16px;
+        font-size: 18px;
         padding: 12px 23px;
         border-radius: 6px;
         font-weight: 400;
@@ -265,27 +265,23 @@
       &:hover {
         color: $accent_color;
       }
-      @media (max-width: 600px) {
-        margin-right: 0;
-        font-size: 17px;
-      }
     }
 
     .left {
       margin-top: 14px;
       & > a {
         margin-right: 25px;
-        font: 400 17px 'Montserrat',Arial,Sans-Serif;
-      }
-      & > a .svg-inline--fa {
-        margin-right: 10px;
+        font: 400 16px 'Montserrat',Arial,Sans-Serif;
+        .svg-inline--fa {
+          margin-right: 10px;
+        }
       }
       span a .svg-inline--fa {
         margin-right: 5px;
       }
       .tags {
         a {
-          font: 400 17px 'Montserrat',Arial,Sans-Serif;
+          font: 400 16px 'Montserrat',Arial,Sans-Serif;
         }
         @media (max-width: 700px) {
           display: none;
@@ -305,15 +301,6 @@
         display: none;
       }
 
-      a {
-        @media (max-width: 600px) {
-          font-size: 17px;
-          margin-right: 0;
-        }
-      }
-      @media (max-width: 1040px) {
-        padding: 0;
-      }
       @media (max-width: 600px) {
         margin-top: 9px;
       }

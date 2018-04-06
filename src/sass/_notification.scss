@@ -9,6 +9,9 @@
   padding: 30px 20px 5px;
   border-radius: 8px;
   box-shadow: -2px 2px 20px rgba(0,0,0,.05);
+  width: 94%;
+  margin: 0 auto 20px;
+
   .notification-description {
       clear:both;
       padding-top: 1px;
@@ -22,6 +25,7 @@
 
     .svg-inline--fa {
       color: #b15d5d;
+      font-size: 18px;
     }
   }
 

@@ -218,22 +218,13 @@ aside {
   height: 86px;
   padding: 30px 10px;
   opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-align: center;
 
   a {
     font-size: 22px;
     line-height: 25px;
-  }
-
-  &:before {
-    display: block;
-    width: 100%;
-    content: '';
-  }
-
-  &:after {
-    display: inline-block;
-    width: 100%;
-    content: '';
   }
 }
 
@@ -305,16 +296,15 @@ aside .author_widget {
   }
 
   .details {
-    float: left;
+    display: inline-block;
     text-align: left;
   }
 
   .avatar {
     height: 57px;
     width: 57px;
-    display: block;
+    display: inline-block;
     margin: 0 10px 0 0;
-    float: left;
   }
 
   h3,
@@ -374,11 +364,40 @@ aside .author_widget {
   }
 }
 /* Hide from articles */
-.container .author_widget {
+.container > .author_widget {
+  background: #fff;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 1px solid #ececec;
+  width: 93%;
+
   .author-container {
-    width: 100%;
-    display: block;
-    height: 60px;
+    width: 57%;
+    display: inline-block;
+    float:left;
+    margin-right: 1%;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .avatar {
+    margin: 0 10px 0 0;
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+  }
+  .title {
+      margin-bottom: -9px;
+  }
+  .location {
+    font-size: 10px;
+  }
+  p {
+    width: 42%;
+    margin: 0;
+    display: inline-block;
+    font-size: 12px;
   }
 
   .page-template .author-container {
@@ -387,35 +406,7 @@ aside .author_widget {
     }
   }
   @media (max-width: 600px) {
-    background: #fff;
-    padding: 25px !important;
-    margin: 30px auto;
-    border-radius: 6px;
-    display: block !important;
-    border: 1px solid #ececec;
-    width: 93%;
-
-    p {
-      width: 90%;
-    }
-  }
-  @media (max-width: 400px) {
-    h3 {
-      margin-right: 0;
-    }
-
-    span {
-      margin-right: 0;
-    }
-
-    .author_url {
-      margin-right: 0;
-      font: 14px 'Open Sans',Helvetica, Sans-Serif;
-    }
-
-    .avatar {
-      margin: 0 15px 0 0;
-    }
+    display: block;
   }
 }
 /* Sidebar Post List */

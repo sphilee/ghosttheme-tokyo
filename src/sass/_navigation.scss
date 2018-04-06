@@ -24,7 +24,7 @@
     @media(max-width: 1040px) {
       top: 0;
       left: 0;
-      margin: 20px;
+      margin: 15px;
       width: 50px;
       position: absolute;
     }
@@ -53,7 +53,7 @@
 
   .toggle {
     display: inline-block;
-    padding: 20px 0 15px 15px;
+    padding: 20px 15px;
     transition: opacity 0.1s ease-out;
     opacity: 0.6;
     float: right;
@@ -86,7 +86,7 @@
     transition: opacity 0.4s ease-out;
     opacity: 0;
     @media(max-width: 1040px) {
-      margin: 11px 0 0;
+      margin: 5px 0 0 0;
     }
     @media(max-width: 600px) {
       display: none;
@@ -644,6 +644,17 @@
 
 .page-template .mainnav .toggle {
   display: none;
+}
+
+.post-template {
+  h1 {
+    text-align: center;
+    margin: -25px auto 0 auto;
+  }
+
+  .toggle {
+    margin-right: 15px;
+  }
 }
 
 .home-template,
