@@ -100,7 +100,6 @@ aside {
 .content .info_widget {
   display: none;
   margin-bottom: 20px;
-
   @media (max-width:1040px) {
     display: block;
     padding: 0;
@@ -198,7 +197,7 @@ aside {
       float: left;
       margin: 0 6px 12px 0;
       padding: 6px 14px;
-      color: $body_text;
+      color: $faded_text;
       border-radius: 4px;
       background: #fff;
       border: 1px solid #ececec;
@@ -217,8 +216,8 @@ aside {
 .social_widget {
   text-align: justify;
   height: 86px;
-padding: 30px 10px;
-opacity: .8;
+  padding: 30px 10px;
+  opacity: 0.8;
 
   a {
     font-size: 22px;
@@ -236,19 +235,6 @@ opacity: .8;
     width: 100%;
     content: '';
   }
-}
-/* WIDGET - TWITTER */
-.home-template .twitter_widget,
-.paged .twitter_widget,
-.tag-template .twitter_widget {
-  padding-top: 0;
-}
-/* WIDGET - TAG */
-.home-template .tag_widget,
-.paged .tag_widget,
-.tag-template .tag_widget {
-  padding-bottom: 0;
-  border-bottom: 0;
 }
 
 .tag_widget {
@@ -408,6 +394,7 @@ aside .author_widget {
     display: block !important;
     border: 1px solid #ececec;
     width: 93%;
+
     p {
       width: 90%;
     }
@@ -567,7 +554,7 @@ aside .widget:last-child {
       font-size: 14px;
       display: inline-block;
       margin-left: 5px;
-      opacity: .5;
+      opacity: 0.5;
     }
   }
 

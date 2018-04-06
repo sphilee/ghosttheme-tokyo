@@ -3,8 +3,8 @@
   {{#get "posts" limit="3" page="1" include="tags" filter="tags:[{{primary_tag.slug}}]+id:-{{id}}" as |related|}}
     {{#foreach related}}
       <div class="related-post">
-        <a href="{{url}}"><h5 class="related-description-title">{{title}}<i class="fal fa-arrow-alt-circle-right"></i></h5></a>
-        <span class="date"><i class="fal fa-calendar-alt"></i> {{date published_at format="MMMM DD"}}</span>
+        <a href="{{url}}"><h5 class="related-description-title">{{title}}<i class="fal fa-arrow-circle-right"></i></h5></a>
+        <span class="date"><i class="fal fa-calendar"></i> {{date published_at format="MMMM DD"}}</span>
         <p class="related-description">{{excerpt}}</p>
         <div class="related-posttag">
           <i class="fal fa-tags"></i>

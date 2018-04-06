@@ -141,6 +141,13 @@
     color: $light;
     z-index: 0;
     margin-top: -19px;
+
+    @media(max-width: 700px){
+      width: 4em;
+      height: 4em;
+      margin: -5px auto 0;
+    }
+
   }
 
   .annotation {
