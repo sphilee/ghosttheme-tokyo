@@ -3,8 +3,7 @@
 */
 .titleintro {
   margin-bottom: 15px;
-  padding: 140px 0 120px;
-  margin-top: -80px;
+  padding: 140px 0 140px;
   border-radius: 0 0 8px 8px;
   background-size: cover;
   background-position: center;
@@ -22,15 +21,27 @@
 
     .titlewrap {
       position: absolute;
-    top: 0;
-    padding: 0;
-    width: 90%;
-    display: block;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: fit-content;
-    bottom: 0;
+      top: 0;
+      padding: 0;
+      width: 95%;
+      display: block;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      display: -moz-box;
+      -moz-box-orient: vertical;
+      -moz-box-pack: center;
+      -moz-box-align: center;
+      display: box;
+      box-orient: vertical;
+      box-pack: center;
+      box-align: center;
+      height: max-content;
     }
   }
 
@@ -82,13 +93,13 @@
     @media(max-width: 1040px) {
       font: 700 5.5ch 'Montserrat',Serif;
       line-height: 1.1;
-      padding: 100px 0 20px;
     }
     @media(max-width: 800px) {
       font: 700 4ch 'Montserrat',Serif;
       line-height: 1.1;
     }
     @media(max-width: 600px) {
+      font: 700 3ch 'Montserrat',Serif;
       margin: 0 auto 15px;
       padding: 0;
       width: 100%;
@@ -112,8 +123,8 @@
     @media(max-width: 800px) {
       width: 90%;
     }
-    @media(max-width: 700px) {
-      font: 400 19px 'Montserrat',Serif;
+    @media(max-width: 600px) {
+      font: 400 16px 'Montserrat',Serif;
     }
   }
 

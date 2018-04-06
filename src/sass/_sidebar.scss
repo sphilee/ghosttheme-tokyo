@@ -61,7 +61,7 @@ aside {
   }
 
   p {
-    font: 100 18px 'Open Sans', Helvetica, Sans-Serif;
+    font: 100 16px 'Open Sans', Helvetica, Sans-Serif;
     line-height: 1.6;
     margin: 0;
     color: #2b2626;
@@ -100,12 +100,7 @@ aside {
 .content .info_widget {
   display: none;
   margin-bottom: 20px;
-  /*
-  .logo {
-    float: left;
-    width: 57%;
-    margin: 0;
-  }*/
+
   @media (max-width:1040px) {
     display: block;
     padding: 0;
@@ -221,11 +216,12 @@ aside {
 /* SOCIAL LINKS WIDGET */
 .social_widget {
   text-align: justify;
-  height: 67px;
-  padding: 20px 10px;
+  height: 86px;
+padding: 30px 10px;
+opacity: .8;
 
   a {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
   }
 
@@ -348,7 +344,7 @@ aside .author_widget {
 
   .title {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
     font-family: 'Open Sans';
     margin-bottom: -5px;
@@ -397,6 +393,12 @@ aside .author_widget {
     width: 100%;
     display: block;
     height: 60px;
+  }
+
+  .page-template .author-container {
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
   @media (max-width: 600px) {
     background: #fff;
@@ -458,17 +460,7 @@ aside .postlist {
       display: none;
     }
   }
-  /*
-  .info {
-    float: left;
-    width: 77.8%;
-    margin-left: 6.6%;
-    @media (max-width: 1357px) {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-*/
+
   h5,
   h5 a {
     line-height: 24px;

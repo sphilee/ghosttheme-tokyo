@@ -1,6 +1,6 @@
 .pagination {
   overflow: hidden;
-  padding: 40px 5px 20px;
+  padding: 40px 5px 40px;
   text-align: center;
 
   a {
@@ -48,7 +48,6 @@
     display: none;
   }
   @media (max-width: 600px) {
-    padding: 20px 0 0;
     margin-bottom: 0;
 
     .pages {

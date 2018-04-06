@@ -488,6 +488,12 @@
         color: $accent_color;
       }
     }
+    .postcontents p {
+      margin-bottom: 20px;
+      @media (max-width: 600px) {
+        margin-bottom: 30px;
+      }
+    }
     @media (max-width: 600px) {
       margin-bottom: 15px;
     }

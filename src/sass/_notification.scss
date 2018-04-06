@@ -9,6 +9,13 @@
   padding: 30px 20px 5px;
   border-radius: 8px;
   box-shadow: -2px 2px 20px rgba(0,0,0,.05);
+  .notification-description {
+      clear:both;
+      padding-top: 1px;
+      p{
+        margin-top: 5px;
+      }
+  }
 
   .left {
     margin-top: 20px;

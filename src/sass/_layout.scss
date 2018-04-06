@@ -36,17 +36,15 @@ header {
   }
 }
 
-
-
 .container {
   width: 84%;
   max-width: 1200px;
-  margin: 0 auto 20px;
+  margin: 0 auto 0;
   display: block;
   overflow: visible !important;
 
   &.featured {
-    margin-top: 35px;
+    margin-top: 20px;
   }
 
   .low {
@@ -114,7 +112,6 @@ header {
   transition: color 0.2s ease-out,background 0.2s ease-out;
   border-radius: 40px;
   background: #dcdcdc;
-  /* height: 33px; */
   color: #fff;
 
   i {

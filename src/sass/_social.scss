@@ -8,7 +8,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $twitter_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
   .angellist {
@@ -16,7 +17,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $github_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
   .github {
@@ -24,7 +26,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $github_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
   .quora {
@@ -32,7 +35,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $quora_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
   .linkedin {
@@ -40,7 +44,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $linkedin_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
   .rss {
@@ -48,7 +53,8 @@
     transition: .2s all ease-out;
     &:hover {
       color: $rss_color;
-      font-size: 20px;
+      font-size: 26px;
+      opacity: 1;
     }
   }
 }

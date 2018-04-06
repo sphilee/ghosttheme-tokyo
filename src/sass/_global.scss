@@ -258,10 +258,7 @@ aside .postlist li {
     }
 }
 */
-.notification-description {
-    clear:both;
-    padding-top: 1px;
-}
+
 
 * {
     box-sizing: border-box
@@ -302,7 +299,7 @@ p {
 
 a {
     background: 0 0;
-    font: 600 19px 'Open Sans', Helvetica, Sans-Serif;
+    font: 100 19px 'Open Sans', Helvetica, Sans-Serif;
     transition: opacity .2s ease-out, border .2s ease-out, color .1s ease-out;
     text-decoration: none
 }
