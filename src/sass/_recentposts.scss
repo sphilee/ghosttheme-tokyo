@@ -163,7 +163,7 @@
     bottom: 0;
     position: absolute;
     width: 100%;
-    @media (max-width: 900px) {
+    @media (max-width: 600px) {
       width: auto;
     }
   }
@@ -171,7 +171,7 @@
   .tag {
     float: left;
     padding-left: 20px;
-    margin-top: 11px;
+    margin-top: 8px;
     color: $faded_text;
     font: 500 15px 'Montserrat', Serif;
 
@@ -209,7 +209,7 @@
 
   .title {
     padding: 15px 15px 0;
-    line-height: 1.2;
+    line-height: 1.1;
     margin: 0;
     font-size: 2.6ch;
     font-weight: 600;

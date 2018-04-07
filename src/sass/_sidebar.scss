@@ -519,14 +519,13 @@ aside .widget:last-child {
     font: 14px 'Open Sans',Helvetica, Sans-Serif;
     line-height: 1.4;
     color: #353535;
-    margin: 6px 0;
+    margin: 3px 0;
     width: 90%;
   }
 
   .date {
     font-size: 13px;
     color: $faded_text;
-    margin-bottom: 5px;
     display: block;
     font-family: 'Open sans';
     font-weight: 400;
@@ -554,7 +553,6 @@ aside .widget:last-child {
     padding: 0;
     margin: 0;
     background: #fff;
-    /* border: 1px solid #d08e8e; */
     color: #9a9a9a;
     font-size: 14px;
     color: #b57777;
