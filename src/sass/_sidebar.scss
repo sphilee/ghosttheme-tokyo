@@ -375,24 +375,37 @@ aside .author_widget {
   .author-container {
     width: 57%;
     display: inline-block;
-    float:left;
+    float: left;
     margin-right: 1%;
   }
+
   h3 {
     font-size: 16px;
   }
+
   .avatar {
-    margin: 0 10px 0 0;
-    height: 50px;
-    width: 50px;
+    margin: 0 5px 0 0;
+    height: 45px;
+    width: 45px;
     font-size: 12px;
   }
-  .title {
-      margin-bottom: -9px;
+
+  h3 a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans';
   }
+
+  .title {
+    margin-bottom: -9px;
+    font-size: 12px;
+    margin-top: 0;
+  }
+
   .location {
     font-size: 10px;
   }
+
   p {
     width: 42%;
     margin: 0;

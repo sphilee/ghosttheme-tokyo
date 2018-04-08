@@ -12,9 +12,6 @@
     border-radius: 0;
     margin-bottom: 15px;
   }
-  @media(max-width: 800px) {
-    line-height: 1.3;
-  }
   @media(max-width: 600px) {
     height: 600px;
     padding: 0;
@@ -24,20 +21,18 @@
       top: 0;
       padding: 0;
       width: 95%;
-      display: block;
       left: 0;
       right: 0;
       margin: auto;
       bottom: 0;
-      display: -webkit-box;
+      display: flex;
+      flex-direction: column;
       -webkit-box-orient: vertical;
       -webkit-box-pack: center;
       -webkit-box-align: center;
-      display: -moz-box;
       -moz-box-orient: vertical;
       -moz-box-pack: center;
       -moz-box-align: center;
-      display: box;
       box-orient: vertical;
       box-pack: center;
       box-align: center;
@@ -81,28 +76,22 @@
 
   h1 {
     font: 700 5ch 'Montserrat',Sans-Serif;
-    line-height: normal;
-    line-height: 1;
+    line-height: 1.1 !important;
     padding: 0 0 20px;
     color: #fff;
     position: relative;
     z-index: 3;
-    width: 93%;
     margin: auto;
     text-transform: uppercase;
     @media(max-width: 1040px) {
       font: 700 5.5ch 'Montserrat',Serif;
-      line-height: 1.1;
     }
     @media(max-width: 800px) {
-      font: 700 4ch 'Montserrat',Serif;
-      line-height: 1.1;
+      font: 700 4.5ch 'Montserrat',Serif;
     }
     @media(max-width: 600px) {
-      font: 700 4ch 'Montserrat',Serif;
       margin: 0 auto 15px;
       padding: 0;
-      width: 100%;
     }
   }
 

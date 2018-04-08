@@ -1,71 +1,67 @@
 /*
     FOOTER
 */
-
 footer {
-    clear: both;
-    padding: 30px 0;
-    background: #fff;
-    overflow: hidden;
+  clear: both;
+  padding: 30px 0;
+  background: #fff;
+  overflow: hidden;
 
-    .wrapper {
-        width: 90%;
-        max-width: 1240px;
-        margin: 0 auto;
+  .wrapper {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    font: 100 14px 'Open Sans', Arial, Sans-Serif;
+    color: #505858;
+    line-height: 1;
+    padding-top: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+    @media (max-width:1040px) {
+      text-align: center;
+      margin: 0 auto 15px;
+      float: none;
+      padding-top: 0;
     }
+  }
 
-    .copyright {
-        font: 100 14px 'Open Sans', Arial, Sans-Serif;
-        color: #505858;
-        line-height: 1;
-        padding-top: 6px;
-        text-align: center;
-        margin-bottom: 20px;
+  a {
+    font: 100 14px 'Open Sans', Arial, Sans-Serif;
+    color: #505858;
+  }
 
-        @media (max-width:1040px) {
-          text-align: center;
-          margin: 0 auto 15px;
-          float: none;
-          padding-top: 0;
-        }
-      }
+  .copyright small,
+  .copyright small a {
+    font: 400 15px 'Open Sans', Arial, Sans-Serif;
+    color: #a0adad;
+  }
+
+  .sociallinks {
+    text-align: center;
 
     a {
-        font: 100 14px 'Open Sans', Arial, Sans-Serif;
-        color: #505858;
+      font-size: 15px;
+      margin: 0 5px 10px;
     }
-
-    .copyright small,
-    .copyright small a {
-        font: 400 15px 'Open Sans', Arial, Sans-Serif;
-        color: #a0adad
-    }
-
-    .sociallinks {
+    @media (max-width: 1040px) {
+      float: none;
+      clear: both;
+      overflow: hidden;
+      width: 100%;
+      padding: 30px 0 0;
       text-align: center;
+      padding-top: 0;
+    }
+    @media (max-width: 600px) {
+      width: 100%;
+      margin: auto;
 
-        a {
-            font-size: 15px;
-            margin: 0 5px 10px;
-        }
-
-        @media (max-width: 1040px) {
-          float: none;
-          clear: both;
-          overflow: hidden;
-          width: 100%;
-          padding: 30px 0 0;
-          text-align: center;
-          padding-top: 0;
-        }
-
-        @media (max-width: 600px) {
-          width: 100%;
-          margin: auto;
-
-          a {
-            margin: 0 7px 14px 7px;
-          }
+      a {
+        margin: 0 7px 14px;
       }
     }
+  }
 }
