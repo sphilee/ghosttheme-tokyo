@@ -4,7 +4,7 @@
 
 Theme can be previewed here: https://toddbirchard.com
 
-![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyoghosttheme.jpg)
+![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/ghost.png)
 
 ## Known Issues
 - SASS refactor
