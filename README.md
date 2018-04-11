@@ -1,10 +1,10 @@
-# Toddzilla Ghost Theme
+# Tokyo
 
 ![ghost badge](https://img.shields.io/badge/ghost-1.22.0-green.svg?longCache=true&style=flat-square) ![ghost CLI badge](https://img.shields.io/badge/ghost_CLI-1.6.0-green.svg?longCache=true&style=flat-square) ![node badge](https://img.shields.io/badge/node-%3E6.9%20%3C7.*-green.svg?longCache=true&style=flat-square) ![gulp badge](https://img.shields.io/badge/gulp-3.9.1-green.svg?longCache=true&style=flat-square) ![gulp sass badge](https://img.shields.io/badge/gulp_sass-3.1.0-green.svg?longCache=true&style=flat-square) ![express-hbs badge](https://img.shields.io/badge/express_hbs-1.0.4-green.svg?longCache=true&style=flat-square) 
 
-Theme can be previewed here: https://toddbirchard.com
+Theme for the Ghost platform. Live preview can be seen here: https://toddbirchard.com
 
-![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/ghost.png)
+![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyotheme.png)
 
 ## Known Issues
 - SASS refactor
