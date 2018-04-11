@@ -10,12 +10,20 @@ jQuery(document).ready(function(){
         configureHighlighter();
         configureCopyright();
         configureVideos();
-        configureComments();
         configureAnalytics();
         configureShortcodes();
         configureSidebar();
         addIcons();
+
+        jQuery('.twitter-block').on('DOMSubtreeModified propertychange', "#twitter-  widget-0", function() {
+              jQuery(".twitter-timeline").contents().find(".timeline-Tweet-media").css("display", "none");
+      jQuery(".twitter-block").css("height", "100%");
+    });
     })();
+
+
+
+
 
 
     // PRETTIFY PRE TAGS
@@ -87,38 +95,6 @@ jQuery(document).ready(function(){
             jQuery('.copyright .ecko').hide();
         }
     }
-
-
-    // COMMENTS
-
-    function configureComments(){
-        jQuery('.comments .graybar').show();
-        if((jQuery('.comments').length !== 0) && config.disqus_shortname !== '' && config.disqus_shortname !== null && config.disqus_shortname !== undefined || config.google_comments === true){
-            jQuery('.comments .graybar').show();
-        }
-        jQuery('.comments .graybar').click(function(){
-            loadComments();
-        });
-        if(config.autoload_comments === true){
-            loadComments();
-        }
-    }
-
-    function loadComments(){
-        if((jQuery('.comments').length !== 0) && config.disqus_shortname !== '' && config.disqus_shortname !== null && config.disqus_shortname !== undefined){
-            if(config.disqus_shortname !== ''){
-                var disqus_shortname = config.disqus_shortname;
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            }
-        }
-        jQuery('.disqus_thread').show();
-        jQuery('.comments .graybar').html('<i class="fa fa-comments"></i>Comments');
-    }
-
 
     // ANALYTICS
 
