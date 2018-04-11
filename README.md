@@ -9,7 +9,7 @@
 
 Theme for the Ghost platform. Live preview can be seen here: https://toddbirchard.com
 
-![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/t.png)
+![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyoshare.png)
 
 # About the Theme
 
