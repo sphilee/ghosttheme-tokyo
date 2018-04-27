@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Tokyo Ghost Theme
-
-![ghost badge](https://img.shields.io/badge/ghost-1.22.0-green.svg?longCache=true&style=flat-square) ![ghost CLI badge](https://img.shields.io/badge/ghost_CLI-1.6.0-green.svg?longCache=true&style=flat-square) ![node badge](https://img.shields.io/badge/node-%3E6.9%20%3C7.*-green.svg?longCache=true&style=flat-square) ![gulp badge](https://img.shields.io/badge/gulp-3.9.1-green.svg?longCache=true&style=flat-square) ![gulp sass badge](https://img.shields.io/badge/gulp_sass-3.1.0-green.svg?longCache=true&style=flat-square) ![express-hbs badge](https://img.shields.io/badge/express_hbs-1.0.4-green.svg?longCache=true&style=flat-square)
-=======
 # Tokyo
 
 ![ghost badge](https://img.shields.io/badge/ghost-1.22.0-green.svg?longCache=true&style=flat-square)
@@ -11,11 +6,10 @@
 ![gulp badge](https://img.shields.io/badge/gulp-3.9.1-green.svg?longCache=true&style=flat-square)
 ![gulp sass badge](https://img.shields.io/badge/gulp_sass-3.1.0-green.svg?longCache=true&style=flat-square)
 ![express-hbs badge](https://img.shields.io/badge/express_hbs-1.0.4-green.svg?longCache=true&style=flat-square)
->>>>>>> ff0e788f4466acac01a1fcc979ef732440ac99a6
 
 Theme for the Ghost platform. Live preview can be seen here: https://toddbirchard.com
 
-![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyoshare.png)
+![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg)
 
 # About the Theme
 
