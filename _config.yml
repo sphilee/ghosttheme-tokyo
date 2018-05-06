@@ -1,1 +1,27 @@
 theme: jekyll-theme-tactile
+
+# Website settings
+title: Tokyo
+description: Theme for the Ghost blogging platform.
+keywords: Tokyo, Ghost, Theme, Toddzilla
+baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+# url: http://127.0.0.1:4000
+#img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Todd Birchard  # Be used at blog posts' author.
+  first_name: Todd  # Be used at index page about me section.
+  last_name: Birchard  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  #github_username: toddbirchard  # Leave blank if you don't have now
+  linkedin_id: tbirchard # Leave blank if you don't have now
+  facebook_username: tbirchard  # Leave blank if you don't have now
+  twitter_username: toddrbirchard  # Leave blank if you don't have now
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
