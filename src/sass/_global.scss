@@ -287,7 +287,7 @@ html *{
 }
 
 p {
-    font: 100 18px 'Open Sans', Helvetica, Sans-Serif;
+    font: 100 16px 'Open Sans', Helvetica, Sans-Serif;
     line-height: 1.5;
     color: $body_text;
 
@@ -299,7 +299,7 @@ p {
 
 a {
     background: 0 0;
-    font: 100 19px 'Open Sans', Helvetica, Sans-Serif;
+    font: 100 16px 'Open Sans', Helvetica, Sans-Serif;
     transition: opacity .2s ease-out, border .2s ease-out, color .1s ease-out;
     text-decoration: none
 }

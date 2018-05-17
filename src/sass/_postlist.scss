@@ -17,7 +17,7 @@
     z-index: 10;
     display: block;
     border-bottom: 1px solid #e2e2e2;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
     .left a,
     .reading-time,
@@ -233,7 +233,7 @@
     padding: 0 40px 0 30px;
 
     .largesolid.orange {
-      border-radius: 10px;
+      border-radius: 7px;
       font-family: 'montserrat';
       float: right;
       font-weight: 500;
@@ -245,7 +245,7 @@
       border: 1px solid #b15d5d;
       color: #b15d5d;
       transition: all 0.2s ease-out;
-      padding: 15px 35px;
+      padding: 12px 30px;
       @media (max-width:600px) {
         font-size: 18px;
         padding: 12px 23px;
@@ -271,7 +271,7 @@
       margin-top: 14px;
       & > a {
         margin-right: 25px;
-        font: 400 16px 'Montserrat',Arial,Sans-Serif;
+        font: 400 14px 'Montserrat',Arial,Sans-Serif;
         .svg-inline--fa {
           margin-right: 10px;
         }
@@ -281,7 +281,7 @@
       }
       .tags {
         a {
-          font: 400 16px 'Montserrat',Arial,Sans-Serif;
+          font: 400 14px 'Montserrat',Arial,Sans-Serif;
         }
         @media (max-width: 700px) {
           display: none;
@@ -338,7 +338,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    height: 400px;
+    height: 300px;
     border-radius: 10px 10px 0 0;
     background-color: #141313;
     background-position: center;
