@@ -11,13 +11,13 @@ Theme for the Ghost platform. Live preview can be seen here: https://toddbirchar
 
 ![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg)
 
-# About the Theme
+## About
 
-_Tokyo_ is a minimalist Ghost theme emphasizing readability, load times, and customization. While staying true to the Ghost philosophy of simplicity, _Tokyo_ expands the typical Ghost feature set to elevate authors.
+_Tokyo_ is a minimalist Ghost theme emphasizing readability, load times, and customization. Stays true to a philosophy of simplicity while expanding on Ghost features to elevate authors.
 
 ### Features
 - Responsive layout
-- Featured posts
+- Featured hero pages
 - Related articles widget
 - Recent articles widget
 - Experience widget
@@ -34,21 +34,22 @@ For information on installing the Ghost platform, please reference the [Ghost CL
 ```
 git clone https://github.com/toddbirchard/ghosttheme-tokyo.git
 cd ghosttheme-tokyo
+
 npm install --global gulp-cli
 npm install
 ```
 
 ### First time developers
 
-Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes. This theme is styled using [SaSS](https://sass-lang.com/).
+Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/). This theme is styled using [SaSS](https://sass-lang.com/) and compiled with [Gulp](https://gulpjs.com/). 
 
-**Main templates:**
-- `default.hbs` - The main template file
-- `index.hbs` - Used for the home page
-- `post.hbs` - Used for individual posts
-- `page.hbs` - Used for individual pages
-- `tag.hbs` - Used for tag archives
-- `author.hbs` - Used for author archives
+**Templates:**
+- `default.hbs` - Base template
+- `index.hbs` - Home page
+- `post.hbs` - Individual posts
+- `page.hbs` - Standalone pages
+- `tag.hbs` - Tag archives
+- `author.hbs` - Author archives
 
 **Stack**
 - Ghost
@@ -58,9 +59,9 @@ Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.
 - Gulp
 - JQuery
 
-# Roadmap
+## Roadmap
 
-This theme is still in active development. As a result, you may notice fun things happening such as links to my personal Google Analytics and Font Awesome accounts. Bear with me as we work to make this distribution ready :).
+This theme is still in active development.
 
 ### Known Issues
 - SASS refactor
