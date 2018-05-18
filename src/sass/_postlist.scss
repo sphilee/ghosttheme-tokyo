@@ -486,3 +486,11 @@
     }
   }
 }
+
+.post-template .postlist {
+  @media (max-width: 1040px) {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+}

@@ -37,11 +37,23 @@
 
   .tags {
     margin: 20px 0 0;
+
+    .tags_list {
+      li a {
+        margin: 0 10px 12px 0 !important;
+      }
+      @media(max-width: 600px){
+        display: flex;
+        justify-content: space-around;
+
+        li a {
+          margin: 0 !important;
+        }
+      }
+    }
   }
 
-  .tags_list li a {
-    margin: 0 10px 12px 0 !important;
-  }
+  .tags_list
 
   .svg-inline--fa {
     margin-right: 5px;

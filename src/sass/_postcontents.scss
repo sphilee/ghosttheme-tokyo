@@ -61,6 +61,10 @@
     width: fit-content;
     max-width: 90%;
 
+    @media(max-width: 600px){
+      max-width: 80%;
+    }
+
     p {
       font: 400 26px 'Source Serif Pro',Helvetica, Sans-Serif;
       margin-bottom: 0;
