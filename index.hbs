@@ -5,38 +5,34 @@
 
 }}
 {{!< default}}
-	<header>
-		{{! WIDGET - BLOG INFO }}
-		{{> widget_bloginfo}}
-	</header>
+
+{{! WIDGET - BLOG INFO }}
+{{> widget_bloginfo}}
 	<div class="container">
 		<div class="customcontainer">
 
-		{{> sidebar_default}}
+			{{> sidebar_default}}
 
-		<div class="content">
+			<div class="content">
 
-
-
-			{{! RESPONSIVE NAVIGATION }}
-			<div class="inlinemenu">
-				<div class="horizontalnav">
+				{{! RESPONSIVE NAVIGATION }}
+				<div class="inlinemenu">
+					<div class="horizontalnav">
+						{{navigation}}
+					</div>
+					<div class="graybar">
+						<div class="left"><i class="fa fa-bars"></i>Navigation</div>
+						<div class="right"><i class="fa fa-chevron-down"></i></div>
+					</div>
 					{{navigation}}
 				</div>
-				<div class="graybar">
-					<div class="left"><i class="fa fa-bars"></i>Navigation</div>
-					<div class="right"><i class="fa fa-chevron-down"></i></div>
-				</div>
-				{{navigation}}
-			</div>
 
-			{{! POSTLIST }}
-			<div class="postlist">
-				{{> loop}}
-				{{pagination}}
+				{{! POSTLIST }}
+				<div class="postlist">
+					{{> loop}} {{pagination}}
+				</div>
+
 			</div>
 
 		</div>
-
 	</div>
-</div>

@@ -56,10 +56,11 @@
   }
 
   blockquote {
-    margin: 30px auto;
-    display: block;
-    width: fit-content;
-    max-width: 90%;
+    background-color: #efefef;
+    padding: 30px;
+    border-left: 3px solid #a97979;
+    font-size: 14px;
+    color: #dcf1f5;
 
     @media(max-width: 600px){
       max-width: 80%;
@@ -75,7 +76,7 @@
         font: 300 22px 'Source Serif Pro',Helvetica, Sans-Serif;
       }
     }
-
+/*
     ::before {
       transform: scaleX(-1);
       margin-top: -5px;
@@ -97,7 +98,7 @@
       height: 15px;
       width: 16px;
     }
-  }
+  }*/
 
   ol,
   ul {
