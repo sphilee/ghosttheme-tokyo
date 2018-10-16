@@ -32,6 +32,7 @@
   p {
     font-weight: 400;
     margin: 30px 0;
+    line-height: 1.8;
 
     img {
       display: none;
@@ -56,21 +57,19 @@
   }
 
   blockquote {
-    background-color: #efefef;
-    padding: 30px;
-    border-left: 3px solid #a97979;
-    font-size: 14px;
-    color: #dcf1f5;
+    background: #b39493;
+    padding: 25px;
+    border-left: 5px solid #b2605e;
+    color: white;
 
     @media(max-width: 600px){
       max-width: 80%;
     }
 
     p {
-      font: 400 26px 'Source Serif Pro',Helvetica, Sans-Serif;
       margin-bottom: 0;
-      line-height: 1.3;
-      color: #aa7979;
+      line-height: 1.5;
+      color: #fff;
       width: fit-content;
       @media(max-width: 800px) {
         font: 300 22px 'Source Serif Pro',Helvetica, Sans-Serif;
