@@ -12,7 +12,7 @@
         "posts_per_page": 5
     },
     "screenshots": {
-        "desktop": "",
+        "desktop": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg",
         "mobile": ""
     },
     "dependencies": {
@@ -20,7 +20,7 @@
         "@babel/runtime": "^7.1.2",
         "@babel/runtime-corejs2": "^7.1.2",
         "babel-runtime": "^6.26.0",
-        "mongodb-stitch-browser-sdk": "^4.0.15-beta-1.0"
+        "mongodb-stitch-browser-sdk": "4.1.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.1.2",
@@ -38,7 +38,6 @@
         "gulp-declare": "^0.3.0",
         "gulp-exit": "0.0.2",
         "gulp-handlebars": "^5.0.2",
-        "gulp-less": "^4.0.1",
         "gulp-livereload": "^4.0.0",
         "gulp-postcss": "^8.0.0",
         "gulp-rename": "^1.4.0",
@@ -46,6 +45,7 @@
         "gulp-sass": "^4.0.1",
         "gulp-sourcemaps": "^2.6.4",
         "gulp-uglify-es": "^1.0.4",
-        "precss": "^4.0.0"
+        "precss": "^4.0.0",
+	"event-stream": "3.3.4"
     }
 }
