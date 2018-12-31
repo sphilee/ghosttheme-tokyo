@@ -5,23 +5,22 @@
   position: relative;
 
   p {
-    display:none;
+    display: none;
   }
 
-    p:nth-of-type(1) {
-      display: block;
-    }
+  p:nth-of-type(1) {
+    display: block;
+  }
 
-    p a,
-    p b,
-    p small {
-      display: inline;
-    }
+  p a,
+  p b,
+  p small {
+    display: inline;
+  }
 
-    p em,
-    p strong {
-      display: inline-block;
-    }
+  p em,
+  p strong {
+    display: inline-block;
   }
 
   img[alt='postimage'] {
@@ -60,8 +59,7 @@
     padding: 25px;
     border-left: 5px solid #b2605e;
     color: white;
-
-    @media(max-width: 600px){
+    @media(max-width: 600px) {
       max-width: 80%;
     }
 
@@ -74,127 +72,104 @@
         font: 300 22px 'Source Serif Pro',Helvetica, Sans-Serif;
       }
     }
-/*
-    ::before {
-      transform: scaleX(-1);
-      margin-top: -5px;
-      margin-left: -19px;
-    }
-
-    ::after {
-      transform: scaleY(-1);
-      margin-left: 3px;
-    }
-
-    ::before,
-    ::after {
-      display: inline-block;
-      content: ' ';
-      position: absolute;
-      background: url("https://toddzilla.nyc3.digitaloceanspaces.com/index/quote.png");
-      background-size: cover;
-      height: 15px;
-      width: 16px;
-    }
-  }*/
-
-  ol,
-  ul {
-    margin: 20px 0 20px 8%;
-    padding: 0;
-
-    li {
-      margin: 15px 0;
-      list-style-type: circle;
-    }
 
     ol,
     ul {
-      &:first-child {
-        margin: 15px 0;
-        padding: 0 0 0 2.5%;
-      }
+      margin: 20px 0 20px 8%;
+      padding: 0;
 
       li {
         margin: 15px 0;
-        padding: 0 0 0 2.5%;
-      }
-    }
-  }
-
-  strong {
-    font-weight: 600;
-    color: $darkest_text;
-  }
-
-  small {
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  h2,
-  h2 a,
-  h3,
-  h3 a {
-    text-align: center;
-  }
-
-  h2 {
-    margin: 47px 0 40px;
-    z-index: 1;
-    position: relative;
-    color: $darkest_text;
-  }
-
-  p > .svg-inline--fa {
-    width: 6em;
-    height: 6em;
-    right: 0;
-    left: 0;
-    position: absolute;
-    margin: 0 auto;
-    color: $light;
-    z-index: 0;
-    margin-top: -19px;
-    @media(max-width: 700px) {
-      width: 4em;
-      height: 4em;
-      margin: -5px auto 0;
-    }
-  }
-
-  .annotation {
-    margin: 40px 0;
-
-    & * {
-      margin: 0;
-    }
-
-    .main {
-      padding: 15px 0 25px;
-      text-align: right;
-      border-bottom: 1px solid #d9d9d9;
-
-      h5 {
-        font: 500 18px 'Montserrat', Arial, Sans-Serif;
-        margin: 5px 0;
+        list-style-type: circle;
       }
 
-      p {
-        font: 400 15px 'Open Sans', 'Open Sans', Arial, Sans-Serif;
-        line-height: 32px;
+      ol,
+      ul {
+        &:first-child {
+          margin: 15px 0;
+          padding: 0 0 0 2.5%;
+        }
+
+        li {
+          margin: 15px 0;
+          padding: 0 0 0 2.5%;
+        }
+      }
+    }
+
+    strong {
+      font-weight: 600;
+      color: $darkest_text;
+    }
+
+    small {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    h2,
+    h2 a,
+    h3,
+    h3 a {
+      text-align: center;
+    }
+
+    h2 {
+      margin: 47px 0 40px;
+      z-index: 1;
+      position: relative;
+      color: $darkest_text;
+    }
+
+    p > .svg-inline--fa {
+      width: 6em;
+      height: 6em;
+      right: 0;
+      left: 0;
+      position: absolute;
+      margin: 0 auto;
+      color: $light;
+      z-index: 0;
+      margin-top: -19px;
+      @media(max-width: 700px) {
+        width: 4em;
+        height: 4em;
+        margin: -5px auto 0;
+      }
+    }
+
+    .annotation {
+      margin: 40px 0;
+
+      & * {
         margin: 0;
-        color: #353535;
+      }
+
+      .main {
+        padding: 15px 0 25px;
+        text-align: right;
+        border-bottom: 1px solid #d9d9d9;
+
+        h5 {
+          font: 500 18px 'Montserrat', Arial, Sans-Serif;
+          margin: 5px 0;
+        }
+
+        p {
+          font: 400 15px 'Open Sans', 'Open Sans', Arial, Sans-Serif;
+          line-height: 32px;
+          margin: 0;
+          color: #353535;
+        }
       }
     }
-  }
 
-  iframe {
-    margin: auto;
-    text-align: center;
-    position: relative;
-    width: 500px;
-    display: block;
+    iframe {
+      margin: auto;
+      text-align: center;
+      position: relative;
+      width: 500px;
+      display: block;
+    }
   }
-}
 }
