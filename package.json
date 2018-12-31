@@ -4,7 +4,6 @@
   "description": "Fully featured theme with minimalist presentation.",
   "homepage": "https://ghostthemes.io",
   "demo": "https://toddbirchard.com",
-  "version": "0.0.1",
   "author": {
     "name": "Todd Birchard",
     "email": "toddbirchard@gmail.com",
@@ -30,15 +29,11 @@
   "config": {
     "posts_per_page": 5
   },
-  "screenshots": {
-    "desktop": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg",
-    "mobile": ""
-  },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@babel/runtime": "^7.1.2",
     "@babel/runtime-corejs2": "^7.1.2",
-    "babel-runtime": "^6.26.0",
+    "babel-runtime": "^6.26.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
