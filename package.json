@@ -13,8 +13,7 @@
   "keywords": [
     "ghost-theme",
     "blog theme",
-    "nodejs",
-    "hackers"
+    "nodejs"
   ],
   "engines": {
     "node": "v10.13.0",
