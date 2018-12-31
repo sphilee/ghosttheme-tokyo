@@ -19,6 +19,14 @@
     "node": "v10.13.0",
     "ghost": ">=2.7.1"
   },
+  "screenshots": {
+    "desktop": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg",
+    "mobile": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddbirchard/ghosttheme-tokyo"
+  },
   "config": {
     "posts_per_page": 5
   },
@@ -57,5 +65,10 @@
     "gulp-uglify-es": "^1.0.4",
     "precss": "^4.0.0",
     "event-stream": "3.3.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
