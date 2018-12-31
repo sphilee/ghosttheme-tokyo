@@ -4,10 +4,9 @@
 .postcontents {
   position: relative;
 
-  &.index .kg-card-markdown {
-    * {
-      display: none;
-    }
+  p {
+    display:none;
+  }
 
     p:nth-of-type(1) {
       display: block;

@@ -1,51 +1,62 @@
 {
-    "name": "tokyo",
-    "version": "1.0.0",
-    "private": true,
-    "description": "Tokyo Theme",
-    "author": {
-        "name": "Todd Birchard",
-        "email": "toddbirchard@gmail.com",
-        "url": "https://toddbirchard.com"
-    },
-    "config": {
-        "posts_per_page": 5
-    },
-    "screenshots": {
-        "desktop": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg",
-        "mobile": ""
-    },
-    "dependencies": {
-        "@babel/polyfill": "^7.0.0",
-        "@babel/runtime": "^7.1.2",
-        "@babel/runtime-corejs2": "^7.1.2",
-        "babel-runtime": "^6.26.0",
-        "mongodb-stitch-browser-sdk": "4.1.0"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.1.2",
-        "@babel/core": "^7.1.2",
-        "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-        "@babel/plugin-transform-runtime": "^7.1.0",
-        "@babel/preset-env": "^7.1.0",
-        "gulp": "^4.0.0",
-        "gulp-autoprefixer": "^6.0.0",
-        "gulp-babel": "^8.0.0",
-        "gulp-babel-minify": "^0.5.0",
-        "gulp-clean": "^0.4.0",
-        "gulp-clean-css": "^4.0.0",
-        "gulp-concat": "^2.6.1",
-        "gulp-declare": "^0.3.0",
-        "gulp-exit": "0.0.2",
-        "gulp-handlebars": "^5.0.2",
-        "gulp-livereload": "^4.0.0",
-        "gulp-postcss": "^8.0.0",
-        "gulp-rename": "^1.4.0",
-        "gulp-resolve-dependencies": "^2.2.0",
-        "gulp-sass": "^4.0.1",
-        "gulp-sourcemaps": "^2.6.4",
-        "gulp-uglify-es": "^1.0.4",
-        "precss": "^4.0.0",
-	"event-stream": "3.3.4"
-    }
+  "name": "tokyo",
+  "version": "0.0.1",
+  "description": "Fully featured theme with minimalist presentation.",
+  "homepage": "https://ghostthemes.io",
+  "demo": "https://toddbirchard.com",
+  "version": "0.0.1",
+  "author": {
+    "name": "Todd Birchard",
+    "email": "toddbirchard@gmail.com",
+    "url": "https://toddbirchard.com"
+  },
+  "keywords": [
+    "ghost-theme",
+    "blog theme",
+    "nodejs",
+    "hackers"
+  ],
+  "engines": {
+    "node": "v10.13.0",
+    "ghost": ">=2.7.1"
+  },
+  "config": {
+    "posts_per_page": 5
+  },
+  "screenshots": {
+    "desktop": "https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg",
+    "mobile": ""
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "@babel/runtime-corejs2": "^7.1.2",
+    "babel-runtime": "^6.26.0",
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-exit": "0.0.2",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-livereload": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-resolve-dependencies": "^2.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4",
+    "precss": "^4.0.0",
+    "event-stream": "3.3.4"
+  }
 }
