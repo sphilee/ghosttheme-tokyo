@@ -56,12 +56,12 @@
     "gulp-livereload": "^4.0.0",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-resolve-dependencies": "^2.2.0",
+    "gulp-resolve-dependencies": "^3.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify-es": "^1.0.4",
     "precss": "^4.0.0",
-    "event-stream": "3.3.4"
+    "event-stream": "4.0.1"
   },
   "babel": {
     "presets": [

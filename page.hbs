@@ -6,59 +6,45 @@
 }}
 {{!< default}}
 
-    {{#post}}
+{{#post}}
 
-        {{> post_feature_header}}
+  {{> post_feature_header}}
 
-        <div class="container {{post_class}}">
-          <div class="customcontainer">
-
-            {{> sidebar_post}}
-
-            <div class="content">
-
-                {{! WIDGET - RESPONSIVE BLOG INFO }}
-                <div class="widget postinfo_widget inline {{post_class}}">
-                    {{#if @blog.logo}}
-                        <a href="{{@blog.url}}" class="logo"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
-                    {{/if}}
-                </div>
-
-                <div class="postlist">
-
-                    {{! POST MAIN }}
-                    <article class="post standard single">
-                        {{> post_header}}
-                        <div class="postcontents">
-                            {{content}}
-                        </div>
-                    </article>
-
-                    {{! WIDGET - AUTHOR INFO }}
-                    {{> widget_author}}
-
-                    {{! COMMENTS }}
-                    {{! REMOVE THE TAGS BELOW FOR COMMENTS ON STATIC PAGES }}
-                    {{! <div class="comments">
-                        <div class="graybar">
-                            <i class="fa fa-comments"></i>View Comments
-                        </div>
-                        <div id="disqus_thread"></div>
-                        <div id="g-comments"></div>
-                    </div>}}
-
-                    {{! RESPONSIVE NAVIGATION }}
-                    <div class="inlinemenu">
-                        <div class="graybar">
-                            <div class="left"><i class="fa fa-bars"></i>Navigation</div>
-                            <div class="right"><i class="fa fa-chevron-down"></i></div>
-                        </div>
-                        {{navigation}}
-                    </div>
-
-                </div>
-            </div>
-            </div>
+  <div class="container {{post_class}}">
+    <div class="customcontainer">
+      {{> sidebar_post}}
+      <div class="content">
+        {{! WIDGET - RESPONSIVE BLOG INFO }}
+        <div class="widget postinfo_widget inline {{post_class}}">
+          {{#if @blog.logo}}
+            <a href="{{@blog.url}}" class="logo"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+          {{/if}}
         </div>
 
-    {{/post}}
+        <div class="postlist">
+
+          {{! POST MAIN }}
+          <article class="post standard single">
+            {{> post_header}}
+            <div class="postcontents">
+              {{content}}
+            </div>
+          </article>
+
+          {{! WIDGET - AUTHOR INFO }}
+          {{> widget_author}}
+
+          {{! RESPONSIVE NAVIGATION }}
+          <div class="inlinemenu">
+            <div class="graybar">
+              <div class="left"><i class="fa fa-bars"></i>Navigation</div>
+              <div class="right"><i class="fa fa-chevron-down"></i></div>
+            </div>
+            {{navigation}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{{/post}}

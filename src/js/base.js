@@ -22,10 +22,6 @@ jQuery(document).ready(function(){
     })();
 
 
-
-
-
-
     // PRETTIFY PRE TAGS
 
     function configureHighlighter(){
