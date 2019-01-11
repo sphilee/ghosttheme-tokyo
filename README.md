@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorB=FCC624&colorA=36363e)](https://github.com/toddbirchard/ghosttheme-tokyo/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorA=36363e&colorB=FCC624)](https://github.com/toddbirchard/ghosttheme-tokyo/network)
 
-Theme for the Ghost platform. Live preview can be seen here: https://toddbirchard.com
+Ghost theme suitable for creators focused on quality content. Lightweight yet tasteful collection of features intended to elevate authors. Live preview can be seen here: https://toddbirchard.com
 
 ![Tokyo Theme](https://miscellaneous.nyc3.digitaloceanspaces.com/tokyodrift.jpg)
 
