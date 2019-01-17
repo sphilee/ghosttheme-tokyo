@@ -1,13 +1,13 @@
 # Tokyo
-![Ghost](https://img.shields.io/badge/ghost-2.6.1-lightgrey.svg?longCache=true&style=flat-square&logo=ghost&logoColor=white&colorB=656c82&colorA=36363e)
-![Node](https://img.shields.io/badge/node-v10.13.0-green.svg?longCache=true&style=flat-square&logo=node.js&logoColor=white&colorB=339933&colorA=36363e)
+![Ghost](https://img.shields.io/badge/ghost-2.11.0-lightgrey.svg?longCache=true&style=flat-square&logo=ghost&logoColor=white&colorB=656c82&colorA=36363e)
+![Node](https://img.shields.io/badge/node-v10.15.0-green.svg?longCache=true&style=flat-square&logo=node.js&logoColor=white&colorB=339933&colorA=36363e)
 ![Gulp](https://img.shields.io/badge/gulp-v4.0.0-green.svg?longCache=true&style=flat-square&logo=gulp&logoColor=white&colorB=DA4648&colorA=36363e)
 ![gulp sass badge](https://img.shields.io/badge/gulp_sass-3.1.0-green.svg?longCache=true&style=flat-square&colorA=36363e&colorB=bb50d7&logo=sass)
 ![express-hbs badge](https://img.shields.io/badge/express_hbs-1.0.4-green.svg?longCache=true&style=flat-square&colorA=36363e)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=36363e)
-[![GitHub issues](https://img.shields.io/github/issues/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorB=FCC624&colorA=36363e)](https://github.com/toddbirchard/ghosttheme-tokyo/issues)
-[![GitHub stars](https://img.shields.io/github/stars/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorB=FCC624&colorA=36363e)](https://github.com/toddbirchard/ghosttheme-tokyo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorA=36363e&colorB=FCC624)](https://github.com/toddbirchard/ghosttheme-tokyo/network)
+[![GitHub issues](https://img.shields.io/github/issues/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorB=daa000&colorA=36363e)](https://github.com/toddbirchard/ghosttheme-tokyo/issues)
+[![GitHub stars](https://img.shields.io/github/stars/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorB=daa000&colorA=36363e)](https://github.com/toddbirchard/ghosttheme-tokyo/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/toddbirchard/ghosttheme-tokyo.svg?style=flat-square&colorA=36363e&colorB=daa000)](https://github.com/toddbirchard/ghosttheme-tokyo/network)
 
 Ghost theme suitable for creators focused on quality content. Lightweight yet tasteful collection of features intended to elevate authors. Live preview can be seen here: https://toddbirchard.com
 
