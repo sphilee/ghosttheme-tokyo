@@ -1,0 +1,121 @@
+.postpreview {
+
+  h1 {
+    margin: 15px 30px 10px !important;
+  }
+  p {
+    display: none;
+  }
+
+  p:nth-of-type(1) {
+    display: block;
+  }
+
+  .excerpt {
+    margin: 0 30px 10px;
+    font: 300 16px 'Open Sans',Helvetica,Sans-Serif !important;
+  }
+
+  .post-preview-footer {
+    font-weight: 600;
+    padding: 0 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 30px 30px;
+    padding:0;
+
+    .readbtn {
+      border-radius: 7px;
+      font-family: 'montserrat';
+      font-weight: 500;
+      font-size: 18px;
+      background: #fff;
+      padding: 10px 20px;
+      margin: 0;
+      text-align: center;
+      display: inline-block;
+      border: 1px solid #b15d5d;
+      color: #b15d5d;
+      transition: all 0.2s ease-out;
+      width: -moz-fit-content;
+      height: -moz-fit-content;
+      width: fit-content;
+      height: fit-content;
+      @media (max-width:600px) {
+        font-size: 18px;
+        padding: 12px 23px;
+        border-radius: 6px;
+        font-weight: 400;
+      }
+
+      &:hover {
+        background-color: #b15d5d;
+        color: white;
+      }
+    }
+
+    a {
+      font: 400 18px 'Open Sans', Arial, Sans-Serif;
+      color: $faded_text;
+
+      &:hover {
+        color: $accent_color;
+      }
+    }
+
+    .left {
+      margin-top: 14px;
+
+      & > a {
+        margin-right: 25px;
+        font: 400 14px 'Montserrat',Arial,Sans-Serif;
+
+        .svg-inline--fa {
+          margin-right: 10px;
+        }
+      }
+
+      span a .svg-inline--fa {
+        margin-right: 5px;
+      }
+
+      .tags {
+        a {
+          font: 400 14px 'Montserrat',Arial,Sans-Serif;
+        }
+        @media (max-width: 700px) {
+          display: none;
+        }
+      }
+
+      .tags * {
+        display: none;
+
+        &:nth-of-type(1) {
+          display: inline;
+        }
+      }
+
+      .banner,
+      .feature {
+        display: none;
+      }
+      @media (max-width: 600px) {
+        margin-top: 9px;
+      }
+    }
+
+    .right {
+      margin-left: 15px;
+    }
+    @media (max-width: 600px) {
+      padding: 0 25px !important;
+      height: 60px;
+      margin-bottom: 15px;
+
+      .tags {
+        display: none;
+      }
+    }
+  }
+}

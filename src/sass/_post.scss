@@ -2,9 +2,6 @@
     POST
 */
 
-
-
-
 .header {
   margin: 10px 0 15px;
   display: none;
@@ -21,7 +18,7 @@
   }
 }
 
-.postfooter {
+.post-preview-foote {
   margin: 40px 0 35px;
 
   .social {
@@ -94,7 +91,7 @@
     display: none;
   }
   @media (max-width:1040px) {
-    margin-bottom: 0;
+  margin-bottom: 0;
   }
 }
 

@@ -47,7 +47,7 @@ function styles() {
       cascade: false
     }))
     .pipe(postcss([require('precss'), require('autoprefixer')]))
-    .pipe(concat('main.min.css'))
+    .pipe(concat('theme.min.css'))
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(livereload())
 }
