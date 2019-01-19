@@ -3,7 +3,7 @@
 */
 .alert,
 .shorttoggle {
-  font: 500 16px 'Montserrat', Arial, Sans-Serif;
+  font: 500 16px 'TTNorms-Medium', Arial, Sans-Serif;
   width: 100%;
   margin-bottom: 20px;
   padding: 20px;
@@ -33,7 +33,7 @@
 }
 
 .shortbutton {
-  font: 500 13px Montserrat, Arial, Sans-Serif;
+  font: 500 13px TTNorms-Medium, Arial, Sans-Serif;
   display: inline-block;
   padding: 6px 20px;
   transition: background 0.2s ease-out, border 0.2s ease-out, color 0.2s ease-out;
@@ -96,7 +96,7 @@
 
 .shorttoggle {
   .toggleheader {
-    font: 500 18px 'Montserrat', Arial, Sans-Serif;
+    font: 500 18px 'TTNorms-Medium', Arial, Sans-Serif;
     overflow: hidden;
     cursor: pointer;
   }
@@ -220,7 +220,7 @@
   margin: 30px 0;
 
   .shorttabsheader {
-    font: 400 16px Montserrat, Arial, Sans-Serif;
+    font: 400 16px TTNorms-Medium, Arial, Sans-Serif;
     display: inline-block;
     margin-top: 3px;
     padding: 10px 20px;
@@ -293,7 +293,7 @@
   }
 
   .percentage {
-    font-family: 'Montserrat', Arial, Sans-Serif;
+    font-family: 'TTNorms-Medium', Arial, Sans-Serif;
     font-size: 17px;
     position: absolute;
     top: 18px;

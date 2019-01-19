@@ -23,7 +23,7 @@
     .reading-time,
     .right a {
       color: $faded_text;
-      font: 400 14px 'Montserrat',Arial,Sans-Serif;
+      font: 400 14px 'TTNorms-Medium',Arial,Sans-Serif;
       display: inline-block;
       float: none;
     }
@@ -98,7 +98,7 @@
     overflow: hidden;
     padding: 10px 0;
 
-    .svg-inline--fa {
+    i {
       font-size: 12px;
       width: auto;
       color: $faded_text;
@@ -127,7 +127,7 @@
     @media(max-width: 600px) {
       /* hides tags on mobile */
       .right {
-        & > .svg-inline--fa,
+        & > i,
         .reading-time,
         .tags {
           display: none;
@@ -195,7 +195,7 @@
         display: none;
       }
 
-      .svg-inline--fa {
+      i {
         display: inline;
       }
 
@@ -209,7 +209,7 @@
       }
     }
 
-    .svg-inline--fa {
+    i {
       margin-right: 5px;
     }
 

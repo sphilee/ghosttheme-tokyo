@@ -11,7 +11,7 @@ aside {
     font-family: helvetica;
     padding-bottom: 10px;
     margin: 0 0 10px;
-    font: 500 26px 'Montserrat',Helvetica, Sans-Serif;
+    font: 500 26px 'TTNorms-Medium',Helvetica, Sans-Serif;
     text-align: center;
 
     i {
@@ -26,7 +26,7 @@ aside {
   border-bottom: 1px solid #ececec;
 
   h4 {
-    .svg-inline--fa {
+    i {
       font-size: 18px;
     }
   }
@@ -192,7 +192,7 @@ aside {
     list-style: none;
 
     a {
-      font: 300 12px 'Montserrat', Helvetica, Sans-Serif;
+      font: 300 12px 'TTNorms-Medium', Helvetica, Sans-Serif;
       display: inline-block;
       float: left;
       margin: 0 6px 12px 0;
@@ -206,7 +206,7 @@ aside {
       &:hover {
         color: #fff;
         background: $accent_color;
-        font: 700 12px 'Montserrat', Helvetica, Sans-Serif;
+        font: 700 12px 'TTNorms-Medium', Helvetica, Sans-Serif;
         border: 1px solid $accent_color;
       }
     }
@@ -225,6 +225,11 @@ aside {
   a {
     font-size: 22px;
     line-height: 25px;
+    
+    i {
+      color: #707070 !important;
+    }
+
   }
 }
 
@@ -245,7 +250,7 @@ aside {
     color: #292F33;
     font-family: helvetica;
     margin: 0;
-    font: 200 21px 'Montserrat',Helvetica, Sans-Serif;
+    font: 200 21px 'TTNorms-Medium',Helvetica, Sans-Serif;
     border-radius: 6px;
   }
 }
@@ -309,7 +314,7 @@ aside .author_widget {
 
   h3,
   h3 a {
-    font: 400 18px 'Montserrat', Serif;
+    font: 400 18px 'TTNorms-Medium', Serif;
     color: $darkest_text;
     margin: 1px 0 -3px;
 
@@ -337,7 +342,7 @@ aside .author_widget {
     color: #a97979;
     line-height: 1;
 
-    .svg-inline--fa {
+    i {
       height: 0.8em;
       font-size: 18px;
     }
@@ -511,7 +516,7 @@ aside .widget:last-child {
     }
   }
 
-  .svg-inline--fa {
+  i {
     font-size: 14px;
   }
 
@@ -521,7 +526,7 @@ aside .widget:last-child {
   }
 
   h5 {
-    font: 400 18px 'Montserrat',Helvetica,Sans-Serif;
+    font: 400 18px 'TTNorms-Medium',Helvetica,Sans-Serif;
     line-height: 1.2;
     margin: 0;
     display: inline-block;
@@ -544,7 +549,7 @@ aside .widget:last-child {
     font-weight: 400;
     margin-top: 5px;
 
-    .svg-inline--fa {
+    i {
       margin-right: 5px;
       font-size: 11px;
       color: #9e9e9e;
@@ -554,7 +559,7 @@ aside .widget:last-child {
   a {
     color: $darkest_text;
 
-    .svg-inline--fa {
+    i {
       font-size: 14px;
       display: inline-block;
       margin-left: 5px;
@@ -598,7 +603,7 @@ aside .widget:last-child {
       color: $faded_text;
     }
 
-    .svg-inline--fa.fa-w-20 {
+    i.fa-w-20 {
       color: #9a9a9a;
     }
   }

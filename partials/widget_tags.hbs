@@ -1,27 +1,18 @@
 {{!
-
 	TAG CLOUD
 	! Configuration of this file is required.
 	- Add common tags here for sidebar
 	- Remove the default tags below if not used
 	- Copy an example tag and replace the tag word in the /tag/ and > < sections
 	- Replace spaces in tags with '%20' in the url eg. 'frontend%20development'
-
 }}
 
-	<div class="widget tag_widget">
-		{{#is "post"}}<!--<h4><i class="fal fa-tags"></i> Tags</h4>-->{{/is}}
-		<ul class="tags_list">
-			{{! <li><a href="/tag/taghere">taghere</a></li> }}
-			<li><a href="{{@blog.url}}/tag/product">Product</a></li>
-			<li><a href="{{@blog.url}}/tag/project-management">Project Management</a></li>
-			<li><a href="{{@blog.url}}/tag/pm-tools">PM Tools</a></li>
-			<li><a href="{{@blog.url}}/tag/process">Process</a></li>
-			<li><a href="{{@blog.url}}/tag/people">People</a></li>
-			<li><a href="{{@blog.url}}/tag/business">Business</a></li>
-			<li><a href="{{@blog.url}}/tag/life">Life</a></li>
-			<li><a href="{{@blog.url}}/tag/jira">JIRA</a></li>
-			<li><a href="{{@blog.url}}/tag/entrepreneurship">Entrepreneurship</a></li>
-			<li><a href="{{@blog.url}}/tag/development">Engineering</a></li>
-		</ul>
-	</div>
+<div class="widget tag_widget">
+	<ul class="tags_list">
+		{{#get "tags" limit="all" include="count.posts" order="count.posts DESC" }}
+			{{#foreach tags}}
+				<li><a href="{{url}}" class="">{{name}}</a></li>
+			{{/foreach}}
+		{{/get}}
+	</ul>
+</div>

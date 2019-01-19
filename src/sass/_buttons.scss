@@ -5,7 +5,7 @@
 .largeoutline,
 .largesolid,
 .smallrounded {
-    font: 500 15px 'Montserrat', Arial, Sans-Serif;
+    font: 500 15px 'TTNorms-Medium', Arial, Sans-Serif;
     display: inline-block
 }
 
@@ -42,7 +42,7 @@
 }
 
 .largesolid {
-    font: 600 13px 'Montserrat', Arial, Sans-Serif;
+    font: 600 13px 'TTNorms-Medium', Arial, Sans-Serif;
     display: inline-block;
     padding: 12px 35px;
     transition: background .2s ease-out;
@@ -50,7 +50,7 @@
     border-radius: 4px;
     background: $accent_color;
 
-    .svg-inline--fa {
+    i {
         margin: 0 10px 0 0;
         @media (max-width:600px) {
           margin: 0;
@@ -139,14 +139,14 @@
 }
 
 .largeoutline {
-  font: 500 18px 'Montserrat',Arial,Sans-Serif;
+  font: 500 18px 'TTNorms-Medium',Arial,Sans-Serif;
   padding: 12px 20px;
   transition: border .2s ease-out,color .2s ease-out,background .2s ease-out;
   color: #fff;
   border-radius: 4px;
   background: rgba(0,0,0,0.3);
 
-  .svg-inline--fa {
+  i {
     color: #b3b3b3;
     margin-left: 10px;
   }
@@ -178,7 +178,7 @@
         color: #d06f6f;
       }
 
-      .svg-inline--fa {
+      i {
         margin: 0 0 0 10px;
         font-size: 18px;
         color: #848484;
@@ -221,7 +221,7 @@
     text-align: center;
     position: relative;
 
-    .svg-inline--fa {
+    i {
       vertical-align: -10px;
     }
 }

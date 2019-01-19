@@ -20,19 +20,16 @@
     <title>{{meta_title}}</title>
 
     {{ghost_head}}
-
-    {{#is home}}{{home_meta}}{{/is}}
     {{#is home}}{{> home_meta}}{{/is}}
     {{#unless post}}{{> home_meta}}{{/unless}}
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="alternate" type="application/rss+xml" href="{{@blog.url}}//rss/">
     <link rel="prefetch" href="{{@blog.url}}">
     <link rel="stylesheet" type="text/css" href="{{asset "css/theme.min.css"}}" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Montserrat:400,700|Source+Serif+Pro:600" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 </head>
 <body class="{{body_class}}">
 
@@ -49,14 +46,9 @@
     {{{body}}}
 
     {{> footer}}
-
     {{ghost_foot}}
-
     {{! JAVASCRIPT }}
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/jquery-3.1.1.min.js"}}"></script>
     <script async type="text/javascript" src="{{asset "js/theme.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/fontawesome/fontawesome-all.js"}}"></script>
-
-
 </body>
 </html>

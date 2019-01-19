@@ -27,7 +27,7 @@
 
     .readbtn {
       border-radius: 7px;
-      font-family: 'montserrat';
+      font-family: 'TTNorms-Medium';
       font-weight: 500;
       font-size: 18px;
       background: #fff;
@@ -55,6 +55,10 @@
       }
     }
 
+    i {
+      color: #797979;
+    }
+
     a {
       font: 400 18px 'TTNorms-Medium', Arial, Sans-Serif;
       color: $faded_text;
@@ -69,20 +73,20 @@
 
       & > a {
         margin-right: 25px;
-        font: 400 14px 'Montserrat',Arial,Sans-Serif;
+        font: 400 14px 'TTNorms-Medium',Arial,Sans-Serif;
 
-        .svg-inline--fa {
+        i {
           margin-right: 10px;
         }
       }
 
-      span a .svg-inline--fa {
+      span a i {
         margin-right: 5px;
       }
 
       .tags {
         a {
-          font: 400 14px 'Montserrat',Arial,Sans-Serif;
+          font: 400 14px 'TTNorms-Medium',Arial,Sans-Serif;
         }
         @media (max-width: 700px) {
           display: none;
