@@ -6,6 +6,22 @@
   width: 100%;
 }
 
+.mobileheader {
+  display:none;
+  width: 100%;
+  margin-bottom: 20px;
+  background-size:cover;
+  height: auto;
+  background-size: cover !important;
+  width: 94%;
+  margin: 0 auto 10px;
+
+
+  @media(max-width: 600px){
+    display: block;
+  }
+}
+
 .mainnav {
   z-index: 400;
   position: relative;
@@ -37,7 +53,7 @@
     margin: auto;
     position: relative;
 
-    .svg-inline--fa.fa-w-14 {
+    i.fa-w-14 {
       width: 0.7em;
       /* margin-top: 10px; */
     }
@@ -266,7 +282,7 @@
 
   a {
     color: #f6f6f6 !important;
-    font: 500 20px 'Montserrat',Arial,Sans-Serif;
+    font: 500 20px 'TTNorms-Medium',Arial,Sans-Serif;
     opacity: 1;
     line-height: 34px;
     margin-top: -1px;
@@ -277,7 +293,7 @@
     }
     @media (max-width:800px) {
       font-size: 16px;
-      font: 700 16px 'Montserrat',Arial,Sans-Serif;
+      font: 700 16px 'TTNorms-Medium',Arial,Sans-Serif;
     }
   }
   @media (max-width:800px) {
@@ -328,7 +344,7 @@
     margin-top: 15px;
 
     a {
-      font: 600 16px 'Montserrat', Arial, Sans-Serif;
+      font: 600 16px 'TTNorms-Medium', Arial, Sans-Serif;
       color: #5e6163;
 
       &:hover {
@@ -419,7 +435,7 @@
     display: none;
   }
 
-  .menu .svg-inline--fa {
+  .menu i {
     margin-right: 10px;
     color: #b15d5d;
   }
@@ -436,7 +452,7 @@
       display: block;
     }
 
-    .svg-inline--fa {
+    i {
       margin-right: 10px;
     }
 
@@ -468,7 +484,7 @@
   }
 
   a {
-    font: 500 16px 'Montserrat', Arial, Sans-Serif;
+    font: 500 16px 'TTNorms-Medium', Arial, Sans-Serif;
     display: inline-block;
     text-transform: uppercase;
   }
@@ -488,7 +504,7 @@
       display: inline-block;
 
       a {
-        font: 700 22px Montserrat,Arial,Sans-Serif;
+        font: 700 22px TTNorms-Medium,Arial,Sans-Serif;
         color: #323232;
       }
     }
@@ -582,7 +598,7 @@
 
     h1,
     h1 a {
-      font: 600 47px 'Montserrat', Arial, Sans-Serif;
+      font: 600 47px 'TTNorms-Medium', Arial, Sans-Serif;
       line-height: 72px;
       display: block;
       color: #fff;

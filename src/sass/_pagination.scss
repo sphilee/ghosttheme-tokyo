@@ -6,7 +6,7 @@
   a {
     background: none;
     color: $faded_text;
-    font: 400 18px 'Montserrat', Sans-Serif;
+    font: 400 18px 'TTNorms-Medium', Sans-Serif;
     text-transform: uppercase;
   }
 
@@ -17,7 +17,7 @@
   .nextbutton {
     float: right;
 
-    .svg-inline--fa {
+    i {
       margin: 0 0 2px 0;
       height: .7em;
       font-weight: 600;
@@ -27,7 +27,7 @@
   .prevbutton {
     float: left;
 
-    .svg-inline--fa {
+    i {
       margin: 0 0 2px 0;
       height: .7em;
     }

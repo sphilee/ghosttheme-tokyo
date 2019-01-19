@@ -60,14 +60,14 @@
   border: 0 solid #000;
   border-radius: 60px;
 
-  .svg-inline--fa {
+  i {
     vertical-align: -7px !important;
   }
 
   &.twitter {
     border-color: $twitter_color;
 
-    .svg-inline--fa {
+    i {
       color: $twitter_color;
     }
 
@@ -79,7 +79,7 @@
   &.facebook {
     border-color: $facebook_color;
 
-    .svg-inline--fa {
+    i {
       color: $facebook_color;
     }
 
@@ -91,7 +91,7 @@
   &.google {
     border-color: $google_color;
 
-    .svg-inline--fa {
+    i {
       color: $google_color;
     }
 
@@ -103,7 +103,7 @@
   &.dribbble {
     border-color: $dribbble_color;
 
-    .svg-inline--fa {
+    i {
       color: $dribbble_color;
     }
 
@@ -115,7 +115,7 @@
   &.instagram {
     border-color: $instagram_color;
 
-    .svg-inline--fa {
+    i {
       color: $instagram_color;
     }
 
@@ -127,7 +127,7 @@
   &.github {
     border-color: $github_color;
 
-    .svg-inline--fa {
+    i {
       color: $github_color;
     }
 
@@ -139,7 +139,7 @@
   &.angellist {
     border-color: $github_color;
 
-    .svg-inline--fa {
+    i {
       color: $github_color;
     }
 
@@ -151,7 +151,7 @@
   &.rss {
     border-color: $rss_color;
 
-    .svg-inline--fa {
+    i {
       color: $rss_color;
     }
 
@@ -163,7 +163,7 @@
   &.youtube {
     border-color: $youtube_color;
 
-    .svg-inline--fa {
+    i {
       color: $youtube_color;
     }
 
@@ -175,7 +175,7 @@
   &.pinterest {
     border-color: $pinterest_color;
 
-    .svg-inline--fa {
+    i {
       color: $pinterest_color;
     }
 
@@ -187,7 +187,7 @@
   &.linkedin {
     border-color: $linkedin_color;
 
-    .svg-inline--fa {
+    i {
       color: $linkedin_color;
     }
 
@@ -199,7 +199,7 @@
   &.skype {
     border-color: $skype_color;
 
-    .svg-inline--fa {
+    i {
       color: $skype_color;
     }
 
@@ -211,7 +211,7 @@
   &.quora {
     border-color: $quora_color;
 
-    .svg-inline--fa {
+    i {
       color: $quora_color;
     }
 
@@ -223,7 +223,7 @@
   &.tumblr {
     border-color: $tumblr_color;
 
-    .svg-inline--fa {
+    i {
       color: $tumblr_color;
     }
 
@@ -235,7 +235,7 @@
   &.meetup {
     border-color: $meetup_color;
 
-    .svg-inline--fa {
+    i {
       color: $meetup_color;
     }
 
@@ -247,7 +247,7 @@
   &.medium {
     border-color: $medium_color;
 
-    .svg-inline--fa {
+    i {
       color: $medium_color;
     }
 
@@ -259,7 +259,7 @@
   &.pocket {
     border-color: $pocket_color;
 
-    .svg-inline--fa {
+    i {
       color: $pocket_color;
     }
 
@@ -271,7 +271,7 @@
   &.codecademy {
     border-color: $codecademy_color;
 
-    .svg-inline--fa {
+    i {
       color: $codecademy_color;
     }
 
@@ -280,7 +280,7 @@
     }
   }
 
-  &:hover .svg-inline--fa {
+  &:hover i {
     color: #fff;
   }
 }
@@ -294,18 +294,18 @@
   text-align: center;
   border-radius: 60px;
 
-  .svg-inline--fa {
+  i {
     vertical-align: -10px !important;
   }
 
   &.twitter {
     background: $twitter_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $twitter_color;
     }
   }
@@ -313,11 +313,11 @@
   &.facebook {
     background: $facebook_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $facebook_color;
     }
   }
@@ -325,11 +325,11 @@
   &.google {
     background: $google_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $google_color;
     }
   }
@@ -337,11 +337,11 @@
   &.dribbble {
     background: $dribbble_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $dribbble_color;
     }
   }
@@ -349,11 +349,11 @@
   &.instagram {
     background: $instagram_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $instagram_color;
     }
   }
@@ -362,11 +362,11 @@
   &.github {
     background: $github_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $github_color;
     }
   }
@@ -374,11 +374,11 @@
   &.rss {
     background: $rss_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $rss_color;
     }
   }
@@ -386,11 +386,11 @@
   &.youtube {
     background: $youtube_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $youtube_color;
     }
   }
@@ -398,11 +398,11 @@
   &.pinterest {
     background: $pinterest_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $pinterest_color;
     }
   }
@@ -410,11 +410,11 @@
   &.linkedin {
     background: $linkedin_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $linkedin_color;
     }
   }
@@ -422,11 +422,11 @@
   &.skype {
     background: $skype_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $skype_color;
     }
   }
@@ -434,11 +434,11 @@
   &.tumblr {
     background: $tumblr_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $tumblr_color;
     }
   }
@@ -446,11 +446,11 @@
   &.quora {
     background: $quora_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $quora_color;
     }
   }
@@ -458,11 +458,11 @@
   &.meetup {
     background: $meetup_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $meetup_color;
     }
   }
@@ -470,11 +470,11 @@
   &.medium {
     background: $medium_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $medium_color;
     }
   }
@@ -482,11 +482,11 @@
   &.pocket {
     background: $pocket_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $pocket_color;
     }
   }
@@ -494,16 +494,16 @@
   &.codecademy {
     background: $codecademy_color;
 
-    .svg-inline--fa {
+    i {
       color: #fff;
     }
 
-    &:hover .svg-inline--fa {
+    &:hover i {
       color: $codecademy_color;
     }
   }
 
-  &:hover .svg-inline--fa {
+  &:hover i {
     color: #fff;
   }
 
