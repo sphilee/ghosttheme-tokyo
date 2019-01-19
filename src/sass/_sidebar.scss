@@ -61,7 +61,7 @@ aside {
   }
 
   p {
-    font: 100 16px 'Open Sans', Helvetica, Sans-Serif;
+    font: 400 16px 'TTNorms-Medium', Helvetica, Sans-Serif;
     line-height: 1.6;
     margin: 0;
     color: #2b2626;
@@ -108,7 +108,7 @@ aside {
     margin-bottom: 0;
 
     p {
-      font: 400 19px 'Open Sans',Helvetica, Sans-Serif;
+      font: 400 19px 'TTNorms-Medium',Helvetica, Sans-Serif;
       text-align: right;
       line-height: 1.3;
       width: 41%;
@@ -322,18 +322,18 @@ aside .author_widget {
     display: block;
     font-size: 14px;
     font-weight: 200;
-    font-family: 'Open Sans';
+    font-family: 'TTNorms-Medium';
     margin-bottom: -5px;
     margin-top: 2px;
   }
 
   .location {
     font-size: 12px;
-    font-family: 'Open sans';
+    font-family: 'TTNorms-Medium';
   }
 
   .author_url {
-    font: 500 12px 'Open Sans',Helvetica, Sans-Serif;
+    font: 500 12px 'TTNorms-Medium',Helvetica, Sans-Serif;
     color: #a97979;
     line-height: 1;
 
@@ -348,13 +348,13 @@ aside .author_widget {
   }
 
   p {
-    font: 100 14px 'Open Sans', Helvetica, Sans-Serif;
+    font: 400 14px 'TTNorms-Medium', Helvetica, Sans-Serif;
     line-height: 1.5;
     color: #2b2626;
     margin-bottom: 0;
     margin-top: 10px;
     @media (max-width: 600px) {
-      font: 100 14px 'Open Sans',Helvetica, Sans-Serif;
+      font: 400 14px 'TTNorms-Medium',Helvetica, Sans-Serif;
     }
   }
 
@@ -393,7 +393,7 @@ aside .author_widget {
   h3 a {
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Open Sans';
+    font-family: 'TTNorms-Medium';
   }
 
   .title {
@@ -470,7 +470,7 @@ aside .postlist {
   }
 
   small {
-    font: 400 14px 'Open Sans', Helvetica, Sans-Serif;
+    font: 400 14px 'TTNorms-Medium', Helvetica, Sans-Serif;
     display: block;
     margin-top: 10px;
     color: #ececec;
@@ -529,7 +529,7 @@ aside .widget:last-child {
   }
 
   p {
-    font: 14px 'Open Sans',Helvetica, Sans-Serif;
+    font: 14px 'TTNorms-Medium',Helvetica, Sans-Serif;
     line-height: 1.4;
     color: #353535;
     margin: 3px 0;
@@ -540,7 +540,7 @@ aside .widget:last-child {
     font-size: 13px;
     color: $faded_text;
     display: block;
-    font-family: 'Open sans';
+    font-family: 'TTNorms-Medium';
     font-weight: 400;
     margin-top: 5px;
 

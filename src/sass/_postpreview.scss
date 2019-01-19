@@ -1,7 +1,7 @@
 .postpreview {
 
   h1 {
-    margin: 15px 30px 10px !important;
+    margin: 25px 30px 10px !important;
   }
   p {
     display: none;
@@ -13,7 +13,8 @@
 
   .excerpt {
     margin: 0 30px 10px;
-    font: 300 16px 'Open Sans',Helvetica,Sans-Serif !important;
+    font: 300 18px 'TTNorms-Medium',Helvetica,Sans-Serif !important;
+    color: $body_text;
   }
 
   .post-preview-footer {
@@ -55,7 +56,7 @@
     }
 
     a {
-      font: 400 18px 'Open Sans', Arial, Sans-Serif;
+      font: 400 18px 'TTNorms-Medium', Arial, Sans-Serif;
       color: $faded_text;
 
       &:hover {

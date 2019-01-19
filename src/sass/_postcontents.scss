@@ -11,11 +11,14 @@
   }
 
   h2 {
-    font: 400 2em 'Montserrat',Arial,Sans-Serif;
+    font: 400 1.5em LuloCleanOne-Bold,Arial,Sans-Serif;
+    font-weight: 400;
+    line-height: normal;
     line-height: 36px;
+    line-height: 1.2 !important;
+    letter-spacing: -4px;
+    margin-top: 70px !important;
     text-align: center;
-    margin-top: 60px;
-    font-weight: 600;
   }
 
   p em,
@@ -30,7 +33,7 @@
   p {
     font-weight: 400;
     margin: 30px 0;
-    line-height: 1.8;
+    line-height: 1.5;
 
     img {
       display: none;
@@ -173,10 +176,10 @@
         }
 
         p {
-          font: 400 1em 'Open Sans', 'Open Sans', Arial, Sans-Serif;
+          font: 400 1em 'TTNorms-Medium', 'TTNorms-Medium', Arial, Sans-Serif;
           line-height: 32px;
           margin: 0;
-          color: #353535;
+          color: $body_text;
         }
       }
     }

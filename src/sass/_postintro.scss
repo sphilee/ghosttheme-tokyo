@@ -75,7 +75,8 @@
   }
 
   h1 {
-    font: 700 5ch 'Montserrat',Sans-Serif;
+    font: 700 3em 'LuloCleanOne-Bold',Sans-Serif;
+    letter-spacing: -8px;
     line-height: 1.1 !important;
     padding: 0 0 20px;
     color: #fff;
@@ -84,10 +85,10 @@
     margin: auto;
     text-transform: uppercase;
     @media(max-width: 1040px) {
-      font: 700 5.5ch 'Montserrat',Serif;
+      font: 700 2em 'LuloCleanOne-Bold',Serif;
     }
     @media(max-width: 800px) {
-      font: 700 4.5ch 'Montserrat',Serif;
+      font: 700 2em 'LuloCleanOne-Bold',Serif;
     }
     @media(max-width: 600px) {
       margin: 0 auto 15px;
@@ -99,7 +100,7 @@
     color: #fff;
     z-index: 10;
     position: relative;
-    font: 400 24px 'Montserrat', Serif;
+    font: 400 24px 'TTNorms-Medium', Serif;
     width: 60%;
     display: block;
     margin: auto;
